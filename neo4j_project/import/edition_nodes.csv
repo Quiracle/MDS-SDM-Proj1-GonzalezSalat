@@ -1,0 +1,91 @@
+edition_id:ID(Edition),year:INT,city,proceeding
+arXiv.org_2023,2023,Paris,Proceedings of arXiv.org 2023
+Applied_Sciences_2023,2023,New York,Proceedings of Applied Sciences 2023
+SIGMOD_record_2022,2022,Paris,Proceedings of SIGMOD record 2022
+GRADES-NDA@SIGMOD_2022,2022,Lisbon,Proceedings of GRADES-NDA@SIGMOD 2022
+International_Conference_on_Database_Theory_2022,2022,London,Proceedings of International Conference on Database Theory 2022
+LOG_IN_2022,2022,Tokyo,Proceedings of LOG IN 2022
+The_VLDB_journal_2021,2021,Lisbon,Proceedings of The VLDB journal 2021
+Database_J._Biol._Databases_Curation_2021,2021,Tokyo,Proceedings of Database J. Biol. Databases Curation 2021
+Undergraduate_Topics_in_Computer_Science_2019,2019,Amsterdam,Proceedings of Undergraduate Topics in Computer Science 2019
+Journal_on_Data_Semantics_2020,2020,Lisbon,Proceedings of Journal on Data Semantics 2020
+IEEE_Access_2020,2020,Lisbon,Proceedings of IEEE Access 2020
+SIGMOD_Conference_2021,2021,Amsterdam,Proceedings of SIGMOD Conference 2021
+International_Conference_on_Advances_in_Social_Networks_Analysis_and_Mining_2021,2021,New York,Proceedings of International Conference on Advances in Social Networks Analysis and Mining 2021
+International_Conference_on_Data_Technologies_and_Applications_2018,2018,Barcelona,Proceedings of International Conference on Data Technologies and Applications 2018
+Knowledge_Discovery_and_Data_Mining_2020,2020,Lisbon,Proceedings of Knowledge Discovery and Data Mining 2020
+Advances_in_Computer_and_Electrical_Engineering_2019,2019,New York,Proceedings of Advances in Computer and Electrical Engineering 2019
+"International_Conference_on_Internet_of_Things,_Big_Data_and_Security_2020",2020,Paris,"Proceedings of International Conference on Internet of Things, Big Data and Security 2020"
+ACM_Computing_Surveys_2019,2019,Amsterdam,Proceedings of ACM Computing Surveys 2019
+International_Conference_on_Conceptual_Modeling_2019,2019,Paris,Proceedings of International Conference on Conceptual Modeling 2019
+EPJ_Web_of_Conferences_2020,2020,Paris,Proceedings of EPJ Web of Conferences 2020
+Theory_of_Computing_Systems_2017,2017,Paris,Proceedings of Theory of Computing Systems 2017
+ACM_Computing_Surveys_2016,2016,New York,Proceedings of ACM Computing Surveys 2016
+IEEE_International_Conference_on_Data_Engineering_2017,2017,London,Proceedings of IEEE International Conference on Data Engineering 2017
+International_Conference_on_Statistical_and_Scientific_Database_Management_2019,2019,Paris,Proceedings of International Conference on Statistical and Scientific Database Management 2019
+BDCAT_2019,2019,Lisbon,Proceedings of BDCAT 2019
+Proceedings_of_the_VLDB_Endowment_2019,2019,Lisbon,Proceedings of Proceedings of the VLDB Endowment 2019
+International_Conference_on_Enterprise_Information_Systems_2017,2017,Lisbon,Proceedings of International Conference on Enterprise Information Systems 2017
+GRADES/NDA@SIGMOD/PODS_2018,2018,Berlin,Proceedings of GRADES/NDA@SIGMOD/PODS 2018
+IEEE_Transactions_on_Knowledge_and_Data_Engineering_2018,2018,Barcelona,Proceedings of IEEE Transactions on Knowledge and Data Engineering 2018
+Applied_Sciences_2022,2022,Berlin,Proceedings of Applied Sciences 2022
+BlockSW/CKG@ISWC_2019,2019,Tokyo,Proceedings of BlockSW/CKG@ISWC 2019
+Trans._GIS_2019,2019,Lisbon,Proceedings of Trans. GIS 2019
+Journal_of_Database_Management_2019,2019,New York,Proceedings of Journal of Database Management 2019
+BioData_Mining_2016,2016,Berlin,Proceedings of BioData Mining 2016
+2019_IEEE_15th_International_Scientific_Conference_on_Informatics_2019,2019,Lisbon,Proceedings of 2019 IEEE 15th International Scientific Conference on Informatics 2019
+International_Conferences_on_Graph_Computing_2019,2019,Berlin,Proceedings of International Conferences on Graph Computing 2019
+Symposium_on_Advances_in_Databases_and_Information_Systems_2019,2019,Lisbon,Proceedings of Symposium on Advances in Databases and Information Systems 2019
+Journal_of_Artificial_Intelligence_Research_2018,2018,Lisbon,Proceedings of Journal of Artificial Intelligence Research 2018
+Workshop_on_the_Theory_and_Practice_of_Provenance_2018,2018,Amsterdam,Proceedings of Workshop on the Theory and Practice of Provenance 2018
+"International_Conference_on_Control,_Automation_and_Information_Sciences_2018",2018,Amsterdam,"Proceedings of International Conference on Control, Automation and Information Sciences 2018"
+International_Conference_on_Web_Engineering_2018,2018,Berlin,Proceedings of International Conference on Web Engineering 2018
+International_Conference_on_Conceptual_Modeling_2016,2016,Tokyo,Proceedings of International Conference on Conceptual Modeling 2016
+International_Conference_on_Information_Technology_&_Systems_2018,2018,Berlin,Proceedings of International Conference on Information Technology & Systems 2018
+Brazilian_Symposium_on_Bioinformatics_2018,2018,Barcelona,Proceedings of Brazilian Symposium on Bioinformatics 2018
+International_Conference_on_Database_and_Expert_Systems_Applications_2018,2018,Berlin,Proceedings of International Conference on Database and Expert Systems Applications 2018
+International_Conference_on_Information_Networking_2018,2018,New York,Proceedings of International Conference on Information Networking 2018
+International_Conference_on_Information_Systems_Security_and_Privacy_2018,2018,New York,Proceedings of International Conference on Information Systems Security and Privacy 2018
+PLoS_ONE_2017,2017,Paris,Proceedings of PLoS ONE 2017
+WorldCIST_2018,2018,Lisbon,Proceedings of WorldCIST 2018
+International_Conference_on_Artificial_Intelligence_and_Soft_Computing_2018,2018,Tokyo,Proceedings of International Conference on Artificial Intelligence and Soft Computing 2018
+2017_IEEE_International_Conference_on_Big_Data_(Big_Data)_2017,2017,Amsterdam,Proceedings of 2017 IEEE International Conference on Big Data (Big Data) 2017
+GRADES@SIGMOD/PODS_2017,2017,Amsterdam,Proceedings of GRADES@SIGMOD/PODS 2017
+IEEE_International_Symposium_on_High-Performance_Parallel_Distributed_Computing_2017,2017,London,Proceedings of IEEE International Symposium on High-Performance Parallel Distributed Computing 2017
+International_Database_Engineering_and_Applications_Symposium_2016,2016,Berlin,Proceedings of International Database Engineering and Applications Symposium 2016
+International_Workshop_on_the_Semantic_Web_2016,2016,Barcelona,Proceedings of International Workshop on the Semantic Web 2016
+SDM_2016,2016,Amsterdam,Proceedings of SDM 2016
+BMC_Bioinformatics_2016,2016,London,Proceedings of BMC Bioinformatics 2016
+WorldCIST_2017,2017,Paris,Proceedings of WorldCIST 2017
+Vietnam_Journal_of_Computer_Science_2017,2017,New York,Proceedings of Vietnam Journal of Computer Science 2017
+EDBT/ICDT_Workshops_2017,2017,Tokyo,Proceedings of EDBT/ICDT Workshops 2017
+IT_Professional_2017,2017,Tokyo,Proceedings of IT Professional 2017
+IEEE_International_Conference_on_Data_Engineering_2016,2016,London,Proceedings of IEEE International Conference on Data Engineering 2016
+International_Conference_on_Automated_Planning_and_Scheduling_2017,2017,London,Proceedings of International Conference on Automated Planning and Scheduling 2017
+IEEE_International_Conference_on_Fuzzy_Systems_2017,2017,Lisbon,Proceedings of IEEE International Conference on Fuzzy Systems 2017
+International_Conference_on_Information_and_Knowledge_Management_2017,2017,New York,Proceedings of International Conference on Information and Knowledge Management 2017
+The_VLDB_journal_2016,2016,Tokyo,Proceedings of The VLDB journal 2016
+arXiv.org_2016,2016,Lisbon,Proceedings of arXiv.org 2016
+International_Conference_on_Data_Warehousing_and_Knowledge_Discovery_2016,2016,Berlin,Proceedings of International Conference on Data Warehousing and Knowledge Discovery 2016
+Alberto_Mendelzon_Workshop_on_Foundations_of_Data_Management_2016,2016,London,Proceedings of Alberto Mendelzon Workshop on Foundations of Data Management 2016
+ANT/SEIT_2017,2017,Paris,Proceedings of ANT/SEIT 2017
+"IEEE/ACM_International_Symposium_on_Cluster,_Cloud_and_Internet_Computing_2017",2017,London,"Proceedings of IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing 2017"
+Proceedings_of_the_VLDB_Endowment_2016,2016,Barcelona,Proceedings of Proceedings of the VLDB Endowment 2016
+International_Conference_on_Computer_Information_Systems_and_Industrial_Management_Applications_2015,2015,Lisbon,Proceedings of International Conference on Computer Information Systems and Industrial Management Applications 2015
+"International_Conference_on_Computing,_Communication_and_Automation_2015",2015,New York,"Proceedings of International Conference on Computing, Communication and Automation 2015"
+arXiv.org_2020,2020,Berlin,Proceedings of arXiv.org 2020
+IEEE_Transactions_on_Knowledge_and_Data_Engineering_2015,2015,Berlin,Proceedings of IEEE Transactions on Knowledge and Data Engineering 2015
+The_VLDB_journal_2015,2015,Lisbon,Proceedings of The VLDB journal 2015
+IEEE_International_Conference_on_Data_Engineering_2015,2015,Tokyo,Proceedings of IEEE International Conference on Data Engineering 2015
+IEEE_International_Advance_Computing_Conference_2015,2015,New York,Proceedings of IEEE International Advance Computing Conference 2015
+Artificial_Intelligence_Applications_and_Innovations_2015,2015,Amsterdam,Proceedings of Artificial Intelligence Applications and Innovations 2015
+International_Conference_on_Extending_Database_Technology_2015,2015,Tokyo,Proceedings of International Conference on Extending Database Technology 2015
+International_Conference_on_Flexible_Query_Answering_Systems_2015,2015,Berlin,Proceedings of International Conference on Flexible Query Answering Systems 2015
+"International_Joint_Conference_on_Knowledge_Discovery,_Knowledge_Engineering_and_Knowledge_Management_2015",2015,Berlin,"Proceedings of International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management 2015"
+GRADES@SIGMOD/PODS_2015,2015,Amsterdam,Proceedings of GRADES@SIGMOD/PODS 2015
+Very_Large_Data_Bases_Conference_2015,2015,New York,Proceedings of Very Large Data Bases Conference 2015
+International_Symposium_Graph_Drawing_and_Network_Visualization_2015,2015,Berlin,Proceedings of International Symposium Graph Drawing and Network Visualization 2015
+Computer_2015,2015,Paris,Proceedings of Computer 2015
+PPAA_'14_2014,2014,New York,Proceedings of PPAA '14 2014
+International_Conference_on_Conceptual_Modeling_2014,2014,Barcelona,Proceedings of International Conference on Conceptual Modeling 2014
+International_Conference_on_Information_Processing_and_Management_of_Uncertainty_2014,2014,Paris,Proceedings of International Conference on Information Processing and Management of Uncertainty 2014

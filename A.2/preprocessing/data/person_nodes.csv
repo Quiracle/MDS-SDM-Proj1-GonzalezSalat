@@ -1,0 +1,387 @@
+person_id:ID(Person),name,email,organization
+10217996,D. Kell,d..kell@example.edu,Knowledge Graph University
+103774486,M. Mačák,m..mačák@example.edu,Knowledge Graph University
+103774486_corr,Unknown,unknown@example.edu,GraphTech Institute
+105033100,R. McColl,r..mccoll@example.edu,Semantic U
+105033100_corr,Unknown,unknown@example.edu,Semantic U
+13290587,E. Peter,e..peter@example.edu,Data Science College
+1389415257,Maximiliano Valverde,maximiliano.valverde@example.edu,Data Science College
+1394869912,Florencia Besteiro,florencia.besteiro@example.edu,Semantic U
+1398238537,I. Comyn-Wattiau,i..comyn-wattiau@example.edu,Data Science College
+1398238537_corr,Unknown,unknown@example.edu,Semantic U
+1400900759,R. Batista-Navarro,r..batista-navarro@example.edu,University of Neo4j
+1401234110,R. Martínez-Tomás,r..martínez-tomás@example.edu,GraphTech Institute
+1403594377,Sara D'Onofrio,sara.d'onofrio@example.edu,Knowledge Graph University
+1403594377_corr,Unknown,unknown@example.edu,GraphTech Institute
+1403702365,Santiago Timón-Reina,santiago.timón-reina@example.edu,Semantic U
+1403702365_corr,Unknown,unknown@example.edu,University of Neo4j
+1403809434,Olga Siedlecka-Lamch,olga.siedlecka-lamch@example.edu,Data Science College
+1403835168,Zahid Abul-Basher,zahid.abul-basher@example.edu,Data Science College
+1403979144,Neamat El-Tazi,neamat.el-tazi@example.edu,GraphTech Institute
+1409306700,Shadi Ghajar-Khosravi,shadi.ghajar-khosravi@example.edu,Data Science College
+1410733743,Youmna A. Megid,youmna.a..megid@example.edu,GraphTech Institute
+1410733743_corr,Unknown,unknown@example.edu,Data Science College
+1419556433,Zongyue Qin,zongyue.qin@example.edu,GraphTech Institute
+1419556433_corr,Unknown,unknown@example.edu,Knowledge Graph University
+143663410,Feida Zhu,feida.zhu@example.edu,GraphTech Institute
+143704623,Prado Santos,prado.santos@example.edu,GraphTech Institute
+143842962,H. Voigt,h..voigt@example.edu,University of Neo4j
+143879633,A. Lisitsa,a..lisitsa@example.edu,Semantic U
+143906110,M. Holanda,m..holanda@example.edu,Knowledge Graph University
+144007515,Aidan Hogan,aidan.hogan@example.edu,Knowledge Graph University
+144024329,P. Godfrey,p..godfrey@example.edu,GraphTech Institute
+144039860,I. Ray,i..ray@example.edu,GraphTech Institute
+144153647,M. Schuster,m..schuster@example.edu,Data Science College
+144171096,Pedro A. Szekely,pedro.a..szekely@example.edu,Semantic U
+144245703,Harsh Thakkar,harsh.thakkar@example.edu,GraphTech Institute
+144245703_corr,Unknown,unknown@example.edu,Semantic U
+144302930,T. Sellis,t..sellis@example.edu,GraphTech Institute
+144329188,P. Furniss,p..furniss@example.edu,University of Neo4j
+144392618,Gwendal Daniel,gwendal.daniel@example.edu,Knowledge Graph University
+144392618_corr,Unknown,unknown@example.edu,Data Science College
+144416706,M. Rincón,m..rincón@example.edu,Knowledge Graph University
+144494743,Zhe Wu,zhe.wu@example.edu,Data Science College
+144568027,Jens Lehmann,jens.lehmann@example.edu,Semantic U
+144641551,G. Alonso,g..alonso@example.edu,Data Science College
+144658846,M. Arenas,m..arenas@example.edu,Knowledge Graph University
+144658846_corr,Unknown,unknown@example.edu,GraphTech Institute
+144666776,J. Yu,j..yu@example.edu,Data Science College
+144668991,J. Pokorný,j..pokorný@example.edu,Knowledge Graph University
+144668991_corr,Unknown,unknown@example.edu,GraphTech Institute
+144750678,M. Romero,m..romero@example.edu,GraphTech Institute
+144768011,Claudio Gutiérrez,claudio.gutiérrez@example.edu,Data Science College
+144773815,Jesse Weaver,jesse.weaver@example.edu,Semantic U
+144850855,Luciana Rech,luciana.rech@example.edu,Semantic U
+145002767,P. Dobson,p..dobson@example.edu,Knowledge Graph University
+145044578,S. Auer,s..auer@example.edu,Knowledge Graph University
+145070630,R. Sinha,r..sinha@example.edu,Knowledge Graph University
+145173699,Pablo Carbonell,pablo.carbonell@example.edu,Semantic U
+145219017,J. Banerjee,j..banerjee@example.edu,University of Neo4j
+145250139,M. Correia,m..correia@example.edu,Data Science College
+145301017,G. Fletcher,g..fletcher@example.edu,Semantic U
+145305773,H. Florez,h..florez@example.edu,University of Neo4j
+145322246,Hong H. Nguyen,hong.h..nguyen@example.edu,GraphTech Institute
+145326878,Manuel Bravo,manuel.bravo@example.edu,Data Science College
+145472032,Anne Laurent,anne.laurent@example.edu,Data Science College
+145479025,D. Schwabe,d..schwabe@example.edu,Knowledge Graph University
+145580839,Jimmy J. Lin,jimmy.j..lin@example.edu,Data Science College
+145739536,James Trimble,james.trimble@example.edu,University of Neo4j
+145770133,Lu Qin,lu.qin@example.edu,University of Neo4j
+145986014,Sriraam Natarajan,sriraam.natarajan@example.edu,Semantic U
+14886336,Ye Yuan,ye.yuan@example.edu,University of Neo4j
+14886336_corr,Unknown,unknown@example.edu,Knowledge Graph University
+15022199,Tiancheng Chen,tiancheng.chen@example.edu,Semantic U
+150349792,Yongjiang Liang,yongjiang.liang@example.edu,Data Science College
+150349792_corr,Unknown,unknown@example.edu,Semantic U
+151121638,Meng-Chieh Lee,meng-chieh.lee@example.edu,GraphTech Institute
+151121638_corr,Unknown,unknown@example.edu,University of Neo4j
+1681226,L. Libkin,l..libkin@example.edu,Semantic U
+1684751,V. Tseng,v..tseng@example.edu,University of Neo4j
+1685097,A. Jayasumana,a..jayasumana@example.edu,GraphTech Institute
+1693933,B. Kuijpers,b..kuijpers@example.edu,GraphTech Institute
+1694512,Hassan Chafi,hassan.chafi@example.edu,GraphTech Institute
+1695194,A. Picariello,a..picariello@example.edu,University of Neo4j
+1696394,A. Ghafoor,a..ghafoor@example.edu,Knowledge Graph University
+1699192,A. Bonifati,a..bonifati@example.edu,Knowledge Graph University
+1699192_corr,Unknown,unknown@example.edu,Knowledge Graph University
+1702139,J. Leskovec,j..leskovec@example.edu,Data Science College
+1702306,Gerson Sunyé,gerson.sunyé@example.edu,Data Science College
+1702467,P. Prosser,p..prosser@example.edu,Knowledge Graph University
+1703204,Juan Sequeda,juan.sequeda@example.edu,Knowledge Graph University
+1705151,M. Tamer Özsu,m..tamer.özsu@example.edu,GraphTech Institute
+1705375,Jordi Cabot,jordi.cabot@example.edu,Knowledge Graph University
+1706223,Frans Coenen,frans.coenen@example.edu,Knowledge Graph University
+1706922,Cristian Riveros,cristian.riveros@example.edu,Semantic U
+1708906,Michael Cochez,michael.cochez@example.edu,University of Neo4j
+1709784,A. Maccioni,a..maccioni@example.edu,Knowledge Graph University
+1713030,David A. Bader,david.a..bader@example.edu,Data Science College
+1713172,W. Didimo,w..didimo@example.edu,Data Science College
+1713172_corr,Unknown,unknown@example.edu,Semantic U
+1713648,T. Hoefler,t..hoefler@example.edu,University of Neo4j
+1714025,Dirk Fahland,dirk.fahland@example.edu,Data Science College
+1716043,Jorge Bernardino,jorge.bernardino@example.edu,University of Neo4j
+1718274,Riccardo Torlone,riccardo.torlone@example.edu,Knowledge Graph University
+1721711,G. Ślusarczyk,g..ślusarczyk@example.edu,University of Neo4j
+1730344,S. Bhowmick,s..bhowmick@example.edu,University of Neo4j
+1734682,P. Senellart,p..senellart@example.edu,Data Science College
+1736546,Doina Caragea,doina.caragea@example.edu,Knowledge Graph University
+1740822681,Matus Stovcik,matus.stovcik@example.edu,Knowledge Graph University
+1741342,L. Rodrigues,l..rodrigues@example.edu,University of Neo4j
+1741346,Christine Solnon,christine.solnon@example.edu,Semantic U
+1743774,E. Bertino,e..bertino@example.edu,Knowledge Graph University
+1746173,G. Saake,g..saake@example.edu,Data Science College
+1746871,K. Kersting,k..kersting@example.edu,Data Science College
+1751143,B. Strug,b..strug@example.edu,Data Science College
+1752888049,Malgorzata Lazarska,malgorzata.lazarska@example.edu,Data Science College
+1752888049_corr,Unknown,unknown@example.edu,University of Neo4j
+1772311,Andrey Gubichev,andrey.gubichev@example.edu,Data Science College
+1772311_corr,Unknown,unknown@example.edu,GraphTech Institute
+1774041,D. Haglin,d..haglin@example.edu,Data Science College
+1777646,Dominik Tomaszuk,dominik.tomaszuk@example.edu,GraphTech Institute
+1791547,M. X. Ribeiro,m..x..ribeiro@example.edu,Knowledge Graph University
+1794160,Francesca Spezzano,francesca.spezzano@example.edu,GraphTech Institute
+1796394,M. Chignell,m..chignell@example.edu,Semantic U
+1798186,J. Feo,j..feo@example.edu,Knowledge Graph University
+1803518,M. Brigido,m..brigido@example.edu,Knowledge Graph University
+1804361,Dong Dai,dong.dai@example.edu,Semantic U
+1804361_corr,Unknown,unknown@example.edu,Data Science College
+1809608,A. Silvescu,a..silvescu@example.edu,Data Science College
+1809608_corr,Unknown,unknown@example.edu,Knowledge Graph University
+1817470,David Broneske,david.broneske@example.edu,GraphTech Institute
+1821099,Xiuzhen Zhang,xiuzhen.zhang@example.edu,University of Neo4j
+1828049,Jason A. Poovey,jason.a..poovey@example.edu,Semantic U
+18356904,Michal Podstawski,michal.podstawski@example.edu,Semantic U
+1850588,Radu Ciucanu,radu.ciucanu@example.edu,University of Neo4j
+1860924,Shashika Ranga Muramudalige,shashika.ranga.muramudalige@example.edu,Semantic U
+1860924_corr,Unknown,unknown@example.edu,University of Neo4j
+1864942,Alan R. Williams,alan.r..williams@example.edu,Data Science College
+1881965,S. Ananiadou,s..ananiadou@example.edu,Semantic U
+1891554,Byron Choi,byron.choi@example.edu,Data Science College
+1894887,Victor Marsault,victor.marsault@example.edu,Semantic U
+1897202,A. Kundu,a..kundu@example.edu,Semantic U
+1903798,N. Advokaat,n..advokaat@example.edu,Semantic U
+1950081,O. Bodenreider,o..bodenreider@example.edu,Knowledge Graph University
+1968180,Yuanyuan Tian,yuanyuan.tian@example.edu,Data Science College
+1968180_corr,Unknown,unknown@example.edu,GraphTech Institute
+1977200,M. Musicante,m..musicante@example.edu,Semantic U
+2019538,Vito Giovanni Castellana,vito.giovanni.castellana@example.edu,Knowledge Graph University
+2019538_corr,Unknown,unknown@example.edu,Semantic U
+2028869,Ron Henkel,ron.henkel@example.edu,Semantic U
+2044319,Christos Tjortjis,christos.tjortjis@example.edu,Data Science College
+2044319_corr,Unknown,unknown@example.edu,University of Neo4j
+2054073851,Chandan Sharma,chandan.sharma@example.edu,Data Science College
+2054073851_corr,Unknown,unknown@example.edu,Semantic U
+2057331457,M. E. Walter,m..e..walter@example.edu,University of Neo4j
+2058740,Russell Harmer,russell.harmer@example.edu,Knowledge Graph University
+2059572334,Carlos Rojas,carlos.rojas@example.edu,GraphTech Institute
+2061173271,E. Ahmed,e..ahmed@example.edu,University of Neo4j
+2064249638,Alexander Campos,alexander.campos@example.edu,Knowledge Graph University
+2064249638_corr,Unknown,unknown@example.edu,University of Neo4j
+2064473584,Alice Zhou,alice.zhou@example.edu,University of Neo4j
+2064791867,Diogo Fernandes,diogo.fernandes@example.edu,University of Neo4j
+2064791867_corr,Unknown,unknown@example.edu,Knowledge Graph University
+2065468132,Chinmay Kundu,chinmay.kundu@example.edu,GraphTech Institute
+2066074494,J. Guia,j..guia@example.edu,Data Science College
+2066074494_corr,Unknown,unknown@example.edu,Data Science College
+2066369448,Mikhail Galkin,mikhail.galkin@example.edu,University of Neo4j
+2070105034,A. Vaisman,a..vaisman@example.edu,GraphTech Institute
+2070105034_corr,Unknown,unknown@example.edu,GraphTech Institute
+2073559355,Piotr Wieczorek,piotr.wieczorek@example.edu,GraphTech Institute
+2073794811,Ahmed Nahar,ahmed.nahar@example.edu,Data Science College
+2078490339,A. Czerepicki,a..czerepicki@example.edu,Data Science College
+2078490339_corr,Unknown,unknown@example.edu,GraphTech Institute
+2080434643,Bolton,bolton@example.edu,University of Neo4j
+2082595527,Daniel Sánchez,daniel.sánchez@example.edu,Semantic U
+2082595527_corr,Unknown,unknown@example.edu,Data Science College
+2083295023,Evan,evan@example.edu,Data Science College
+2084117002,Graph Databases,graph.databases@example.edu,Data Science College
+2084117002_corr,Unknown,unknown@example.edu,Knowledge Graph University
+2089333,J. Doppa,j..doppa@example.edu,Semantic U
+2102129,Arnaud Castelltort,arnaud.castelltort@example.edu,Semantic U
+2102129_corr,Unknown,unknown@example.edu,University of Neo4j
+21024202,D. Nicoară,d..nicoară@example.edu,Knowledge Graph University
+21024202_corr,Unknown,unknown@example.edu,University of Neo4j
+2102926579,Thomas Myrach,thomas.myrach@example.edu,University of Neo4j
+2108047195,Qingliang Li,qingliang.li@example.edu,Knowledge Graph University
+2109461904,Yizhou Sun,yizhou.sun@example.edu,Data Science College
+2109590665,Haixun Wang,haixun.wang@example.edu,Knowledge Graph University
+2110490847,H. Nguyen,h..nguyen@example.edu,GraphTech Institute
+2110677374,Manpreet Singh,manpreet.singh@example.edu,Semantic U
+2110677374_corr,Unknown,unknown@example.edu,GraphTech Institute
+2111034665,Yun Peng,yun.peng@example.edu,Knowledge Graph University
+2111034665_corr,Unknown,unknown@example.edu,University of Neo4j
+2112395404,Lucas Cesar Ferreira,lucas.cesar.ferreira@example.edu,Semantic U
+2121691833,Ariel Debrouvier,ariel.debrouvier@example.edu,University of Neo4j
+2121691833_corr,Unknown,unknown@example.edu,University of Neo4j
+2121692012,Eliseo Parodi,eliseo.parodi@example.edu,Data Science College
+2121692039,Matías Perazzo,matías.perazzo@example.edu,University of Neo4j
+2121701124,Valeria Soliani,valeria.soliani@example.edu,University of Neo4j
+2124626283,Florian Scheidl,florian.scheidl@example.edu,Data Science College
+2125673249,Marc Fischer,marc.fischer@example.edu,GraphTech Institute
+2134146,Nikoli Dryden,nikoli.dryden@example.edu,Semantic U
+2176381,K. Daudjee,k..daudjee@example.edu,Semantic U
+2180167644,Patrick Iff,patrick.iff@example.edu,University of Neo4j
+2193901,W. Shahzad,w..shahzad@example.edu,Knowledge Graph University
+2198707,Peixiang Zhao,peixiang.zhao@example.edu,Semantic U
+2207212,Sungpack Hong,sungpack.hong@example.edu,Knowledge Graph University
+2207401,Oshini Goonetilleke,oshini.goonetilleke@example.edu,Data Science College
+2207401_corr,Unknown,unknown@example.edu,Data Science College
+2216703472,Jéssica Monteiro,jéssica.monteiro@example.edu,University of Neo4j
+2216703472_corr,Unknown,unknown@example.edu,Knowledge Graph University
+2217073,A. Jervis,a..jervis@example.edu,Knowledge Graph University
+2220934,Marko Junkkari,marko.junkkari@example.edu,Data Science College
+2236429,Tushar Khot,tushar.khot@example.edu,GraphTech Institute
+2238861,Dimitris Berberidis,dimitris.berberidis@example.edu,Semantic U
+22573315,D. Punjani,d..punjani@example.edu,GraphTech Institute
+2271992963,Julius Hřivnáč,julius.hřivnáč@example.edu,University of Neo4j
+2271992963_corr,Unknown,unknown@example.edu,GraphTech Institute
+2285406,J. Akoka,j..akoka@example.edu,Knowledge Graph University
+2298635186,Karamjit Kaur,karamjit.kaur@example.edu,GraphTech Institute
+2335456,Leticia I. Gómez,leticia.i..gómez@example.edu,GraphTech Institute
+2335456_corr,Unknown,unknown@example.edu,Semantic U
+2338598,Oreste Villa,oreste.villa@example.edu,Knowledge Graph University
+2341999,P. Selmer,p..selmer@example.edu,Knowledge Graph University
+23605695,Yann Ramusat,yann.ramusat@example.edu,University of Neo4j
+23605695_corr,Unknown,unknown@example.edu,GraphTech Institute
+2371988,S. A. T. Mpinda,s..a..t..mpinda@example.edu,University of Neo4j
+2371988_corr,Unknown,unknown@example.edu,Knowledge Graph University
+2409325,Aly Fahmy,aly.fahmy@example.edu,University of Neo4j
+2410119,E. G. Caldarola,e..g..caldarola@example.edu,University of Neo4j
+2410119_corr,Unknown,unknown@example.edu,Data Science College
+2434366,D. Vrgoč,d..vrgoč@example.edu,University of Neo4j
+2454799,P. Guagliardo,p..guagliardo@example.edu,Knowledge Graph University
+2460428,Dagmar Waltemath,dagmar.waltemath@example.edu,University of Neo4j
+2478931,Juan L. Reutter,juan.l..reutter@example.edu,Semantic U
+2478931_corr,Unknown,unknown@example.edu,GraphTech Institute
+25003800,Kazuki Osawa,kazuki.osawa@example.edu,University of Neo4j
+2503073,Sharma Chakravarthy,sharma.chakravarthy@example.edu,Semantic U
+2516234,Benoît Groz,benoît.groz@example.edu,Semantic U
+2516234_corr,Unknown,unknown@example.edu,University of Neo4j
+2520357,Alessandro Morari,alessandro.morari@example.edu,Data Science College
+2521667,Daniel Presser,daniel.presser@example.edu,Knowledge Graph University
+25355201,Jirí Kovacic,jirí.kovacic@example.edu,GraphTech Institute
+2559032,M. Vinaixa,m..vinaixa@example.edu,University of Neo4j
+25635969,Saket K. Sathe,saket.k..sathe@example.edu,University of Neo4j
+2573120,S. Staworko,s..staworko@example.edu,University of Neo4j
+2589314,M. R. Islam,m..r..islam@example.edu,Semantic U
+2590886,Silviu Maniu,silviu.maniu@example.edu,GraphTech Institute
+2606269,Antonino Tumeo,antonino.tumeo@example.edu,Semantic U
+2661384,R. Breitling,r..breitling@example.edu,Semantic U
+2728740,K. Rabuzin,k..rabuzin@example.edu,University of Neo4j
+2728740_corr,Unknown,unknown@example.edu,GraphTech Institute
+2730618,Edy Portmann,edy.portmann@example.edu,Semantic U
+2731035,A. Ammar,a..ammar@example.edu,GraphTech Institute
+2731035_corr,Unknown,unknown@example.edu,University of Neo4j
+2748632,Stefan Plantikow,stefan.plantikow@example.edu,Data Science College
+2772109,Renzo Angles,renzo.angles@example.edu,GraphTech Institute
+2772109_corr,Unknown,unknown@example.edu,Data Science College
+2790411,Filipe Sá,filipe.sá@example.edu,Data Science College
+2835741,Irina A. Roznovat,irina.a..roznovat@example.edu,Knowledge Graph University
+2856719,Guillaume Bagan,guillaume.bagan@example.edu,University of Neo4j
+2856719_corr,Unknown,unknown@example.edu,Data Science College
+2872113,M. Namaki,m..namaki@example.edu,University of Neo4j
+2872113_corr,Unknown,unknown@example.edu,Knowledge Graph University
+2873542,Xuemin Lin,xuemin.lin@example.edu,Semantic U
+2919642,Maciej Besta,maciej.besta@example.edu,Knowledge Graph University
+2919642_corr,Unknown,unknown@example.edu,Semantic U
+2922951,J. Nummenmaa,j..nummenmaa@example.edu,Semantic U
+2948541,Yinghui Wu,yinghui.wu@example.edu,Knowledge Graph University
+2967413,N. Yakovets,n..yakovets@example.edu,Data Science College
+2969299,David Ediger,david.ediger@example.edu,Knowledge Graph University
+2982298,S. Das,s..das@example.edu,Knowledge Graph University
+2982298_corr,Unknown,unknown@example.edu,University of Neo4j
+3016228,Marcus Pinnecke,marcus.pinnecke@example.edu,Semantic U
+3019221,Peipei Yi,peipei.yi@example.edu,GraphTech Institute
+3019221_corr,Unknown,unknown@example.edu,University of Neo4j
+3019341,Barbora Buhnova,barbora.buhnova@example.edu,Semantic U
+3083019,Sérgio Lifschitz,sérgio.lifschitz@example.edu,University of Neo4j
+3118051,Francesco Giacchè,francesco.giacchè@example.edu,Data Science College
+31380655,Raouf Bouhali,raouf.bouhali@example.edu,Knowledge Graph University
+31380655_corr,Unknown,unknown@example.edu,Data Science College
+31435894,Akshay Kansal,akshay.kansal@example.edu,University of Neo4j
+31435894_corr,Unknown,unknown@example.edu,Knowledge Graph University
+31472189,Polyane Wercelens,polyane.wercelens@example.edu,Data Science College
+31590259,C. Rawlings,c..rawlings@example.edu,University of Neo4j
+3159707,O. V. Rest,o..v..rest@example.edu,University of Neo4j
+31846192,Tobias Lindaaker,tobias.lindaaker@example.edu,Data Science College
+3188030,Claude Barthels,claude.barthels@example.edu,Knowledge Graph University
+3215556,Ciaran McCreesh,ciaran.mccreesh@example.edu,Semantic U
+3215556_corr,Unknown,unknown@example.edu,Data Science College
+32267146,Daniel Hernández,daniel.hernández@example.edu,Data Science College
+32267146_corr,Unknown,unknown@example.edu,Data Science College
+3246503,M. Sevenich,m..sevenich@example.edu,Semantic U
+3246503_corr,Unknown,unknown@example.edu,Data Science College
+32535366,Rommel N. Carvalho,rommel.n..carvalho@example.edu,Knowledge Graph University
+3255268,L. Akoglu,l..akoglu@example.edu,Data Science College
+3255652,Benjamin W. K. Hung,benjamin.w..k..hung@example.edu,University of Neo4j
+3291006,F. Montecchiani,f..montecchiani@example.edu,Data Science College
+3308719,Robert Gerstenberger,robert.gerstenberger@example.edu,Knowledge Graph University
+33163897,A. M. Rinaldi,a..m..rinaldi@example.edu,Knowledge Graph University
+3393755,Jorge Mozzino,jorge.mozzino@example.edu,GraphTech Institute
+34069293,Marcel Wehrle,marcel.wehrle@example.edu,GraphTech Institute
+34110040,H. V. Olivera,h..v..olivera@example.edu,Knowledge Graph University
+3418946,Bingqing Lyu,bingqing.lyu@example.edu,Semantic U
+3418946_corr,Unknown,unknown@example.edu,Knowledge Graph University
+34399700,Shahin Kamali,shahin.kamali@example.edu,Data Science College
+34533996,Z. Zhang,z..zhang@example.edu,Semantic U
+34533996_corr,Unknown,unknown@example.edu,Data Science College
+34580886,R. D. Virgilio,r..d..virgilio@example.edu,GraphTech Institute
+34580886_corr,Unknown,unknown@example.edu,University of Neo4j
+3470782,Enzo Zerega,enzo.zerega@example.edu,Semantic U
+34815790,U. S. Costa,u..s..costa@example.edu,Knowledge Graph University
+34856697,M. Valenta,m..valenta@example.edu,GraphTech Institute
+35003282,O. Lassila,o..lassila@example.edu,Data Science College
+35089024,Vinh Phu Nguyen,vinh.phu.nguyen@example.edu,GraphTech Institute
+35089024_corr,Unknown,unknown@example.edu,Knowledge Graph University
+35106192,P. Barceló,p..barceló@example.edu,Knowledge Graph University
+35655815,H. Y. Yip,h..y..yip@example.edu,GraphTech Institute
+35774662,F. R. Chowdhury,f..r..chowdhury@example.edu,Semantic U
+36994619,A. Lysenko,a..lysenko@example.edu,Knowledge Graph University
+36994619_corr,Unknown,unknown@example.edu,Data Science College
+38736958,Lijun Chang,lijun.chang@example.edu,GraphTech Institute
+39064908,Valéria Gonçalves Soares,valéria.gonçalves.soares@example.edu,University of Neo4j
+39269062,Milan Cvitkovic,milan.cvitkovic@example.edu,Knowledge Graph University
+39269062_corr,Unknown,unknown@example.edu,GraphTech Institute
+39592606,Waldeyr M. C. Silva,waldeyr.m..c..silva@example.edu,Semantic U
+39592606_corr,Unknown,unknown@example.edu,Semantic U
+40046694,Hongyu Ren,hongyu.ren@example.edu,University of Neo4j
+40046694_corr,Unknown,unknown@example.edu,Knowledge Graph University
+4023152,M. Dunstan,m..dunstan@example.edu,Semantic U
+4047075,Anil Pacaci,anil.pacaci@example.edu,GraphTech Institute
+4047075_corr,Unknown,unknown@example.edu,Knowledge Graph University
+40892737,Vasundra Touré,vasundra.touré@example.edu,University of Neo4j
+40892737_corr,Unknown,unknown@example.edu,Semantic U
+40895294,Nahla Aburawi,nahla.aburawi@example.edu,Data Science College
+40895294_corr,Unknown,unknown@example.edu,GraphTech Institute
+40977242,S. Esser,s..esser@example.edu,GraphTech Institute
+40977242_corr,Unknown,unknown@example.edu,Knowledge Graph University
+40996948,Ray Neiheiser,ray.neiheiser@example.edu,University of Neo4j
+40996948_corr,Unknown,unknown@example.edu,Knowledge Graph University
+4383001,N. Scrutton,n..scrutton@example.edu,University of Neo4j
+46207591,Fred C. Santos,fred.c..santos@example.edu,Data Science College
+46207591_corr,Unknown,unknown@example.edu,University of Neo4j
+47010888,Ali Ismail,ali.ismail@example.edu,Data Science College
+47010888_corr,Unknown,unknown@example.edu,Data Science College
+47539394,Jinbo Zhang,jinbo.zhang@example.edu,Semantic U
+47539394_corr,Unknown,unknown@example.edu,Knowledge Graph University
+47557631,Yong Chen,yong.chen@example.edu,University of Neo4j
+47774578,Zhe Fan,zhe.fan@example.edu,Data Science College
+48035814,Aurélien Lemay,aurélien.lemay@example.edu,GraphTech Institute
+48107154,A. Mazein,a..mazein@example.edu,GraphTech Institute
+48528884,M. Arshad,m..arshad@example.edu,University of Neo4j
+48528884_corr,Unknown,unknown@example.edu,Semantic U
+48662628,C. Auffray,c..auffray@example.edu,Knowledge Graph University
+49061836,Alastair Green,alastair.green@example.edu,GraphTech Institute
+49061836_corr,Unknown,unknown@example.edu,Data Science College
+49330176,Lei Chen,lei.chen@example.edu,Data Science College
+49839849,Neil Swainston,neil.swainston@example.edu,Data Science College
+49839849_corr,Unknown,unknown@example.edu,Semantic U
+50118077,Yuqing Wu,yuqing.wu@example.edu,University of Neo4j
+50378124,M. Das,m..das@example.edu,University of Neo4j
+50378124_corr,Unknown,unknown@example.edu,Semantic U
+50669606,J. Pellet,j..pellet@example.edu,Semantic U
+50701671,M. Saqi,m..saqi@example.edu,GraphTech Institute
+51228791,Yunsheng Bai,yunsheng.bai@example.edu,University of Neo4j
+51229930,Soad Almabdy,soad.almabdy@example.edu,Semantic U
+51229930_corr,Unknown,unknown@example.edu,Semantic U
+51488437,Wisal Khan,wisal.khan@example.edu,GraphTech Institute
+51488437_corr,Unknown,unknown@example.edu,Data Science College
+52561170,Petri Kotiranta,petri.kotiranta@example.edu,University of Neo4j
+52561170_corr,Unknown,unknown@example.edu,Knowledge Graph University
+6324301,J. Faulon,j..faulon@example.edu,University of Neo4j
+71371263,A. Goyal,a..goyal@example.edu,Data Science College
+71636032,Eugenia Oshurko,eugenia.oshurko@example.edu,Semantic U
+72166011,Marilde Terezinha,marilde.terezinha@example.edu,GraphTech Institute
+82250495,D. Campbell,d..campbell@example.edu,University of Neo4j
+8349792,Guoren Wang,guoren.wang@example.edu,Semantic U
+8613913,Irina Balaur,irina.balaur@example.edu,GraphTech Institute
+9031926,Zhaocheng Zhu,zhaocheng.zhu@example.edu,GraphTech Institute
+9083969,Moshe Y. Vardi,moshe.y..vardi@example.edu,University of Neo4j
+9097705,Jianliang Xu,jianliang.xu@example.edu,Data Science College
+9106917,Rohit kumar Kaliyar,rohit.kumar.kaliyar@example.edu,Semantic U
+9106917_corr,Unknown,unknown@example.edu,Semantic U
+9613825,Gabriel Campero Durand,gabriel.campero.durand@example.edu,Knowledge Graph University
+9613825_corr,Unknown,unknown@example.edu,Data Science College
+96510111,P. Mendes,p..mendes@example.edu,Knowledge Graph University
+9766598,G. V. Erven,g..v..erven@example.edu,University of Neo4j
+9766598_corr,Unknown,unknown@example.edu,GraphTech Institute
