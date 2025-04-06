@@ -1,19 +1,12 @@
 import csv
-import random
 
 # Archivos de entrada
-INPUT_RAW = "data/person_nodes_raw.csv"  # id + name
+INPUT_RAW = "data/not imported/person_nodes_raw.csv"  # id + name
 INPUT_WRITES = "data/author_wrote.csv"
 INPUT_CORR = "data/corresponding_author.csv"
 
 # Archivo de salida
 OUTPUT_PERSON = "data/person_nodes.csv"
-
-# Universidades sintéticas
-universities = [
-    "University of Neo4j", "GraphTech Institute", "Semantic U",
-    "Knowledge Graph University", "Data Science College"
-]
 
 # 1. Cargar nombres desde el archivo raw
 id_to_name = {}
@@ -33,19 +26,16 @@ for file in [INPUT_WRITES, INPUT_CORR]:
         for row in reader:
             person_ids.add(row[":START_ID(Person)"])
 
-# 3. Crear nodos con atributos
+# 3. Crear nodos con solo nombre
 rows = []
 for pid in sorted(person_ids):
     name = id_to_name.get(pid, "Unknown")
-    email = name.lower().replace(" ", ".") + "@example.edu"
-    org = random.choice(universities)
-    rows.append([pid, name, email, org])
+    rows.append([pid, name])
 
 # 4. Guardar el CSV final
 with open(OUTPUT_PERSON, "w", newline='', encoding="utf-8") as f:
     writer = csv.writer(f)
-    writer.writerow(["person_id:ID(Person)", "name", "email", "organization"])
+    writer.writerow(["person_id:ID(Person)", "name"])
     writer.writerows(rows)
 
 print(f"✅ Archivo generado: {OUTPUT_PERSON}")
-

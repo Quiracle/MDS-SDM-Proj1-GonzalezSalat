@@ -17,7 +17,7 @@ cypher_statements = [
 
     """
     LOAD CSV WITH HEADERS FROM 'file:///person_nodes.csv' AS row
-    CREATE (:Person {person_id: row.person_id, name: row.name, email: row.email, organization: row.organization});
+    CREATE (:Person {person_id: row.person_id, name: row.name});
     """,
 
     """
