@@ -1,4 +1,4 @@
-:START_ID(Volume),:END_ID(Journal)
+volume_id,journal_id
 arXiv.org_Vol2023,arXiv.org
 Applied Sciences_Vol2023,Applied Sciences
 SIGMOD record_Vol2022,SIGMOD record

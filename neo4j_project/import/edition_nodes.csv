@@ -1,4 +1,4 @@
-edition_id:ID(Edition),year:INT,city,proceeding
+edition_id,year,city,proceeding
 arXiv.org_2023,2023,Paris,Proceedings of arXiv.org 2023
 Applied_Sciences_2023,2023,New York,Proceedings of Applied Sciences 2023
 SIGMOD_record_2022,2022,Paris,Proceedings of SIGMOD record 2022

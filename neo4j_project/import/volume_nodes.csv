@@ -1,4 +1,4 @@
-volume_id:ID(Volume),number,year:INT
+volume_id,number,year
 arXiv.org_Vol2023,2023,2023
 Applied Sciences_Vol2023,2023,2023
 SIGMOD record_Vol2022,2022,2022

@@ -1,4 +1,4 @@
-person_id:ID(Person),name
+person_id,name
 10217996,D. Kell
 103774486,M. Mačák
 103774486_corr,Unknown

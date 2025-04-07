@@ -1,4 +1,4 @@
-:START_ID(Edition),:END_ID(ConferenceWorkshop)
+edition_id,name
 arXiv.org_2023,arXiv.org
 Applied_Sciences_2023,Applied Sciences
 SIGMOD_record_2022,SIGMOD record

@@ -1,4 +1,4 @@
-journal_id:ID(Journal),organization
+journal_id,organization
 arXiv.org,ACM Press
 Applied Sciences,Elsevier
 SIGMOD record,Oxford Press
