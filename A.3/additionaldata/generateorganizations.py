@@ -5,7 +5,6 @@ import random
 BASE = os.path.dirname(__file__)
 
 INPUT_PERSONS = os.path.join("..", "..", "A.2", "preprocessing", "data", "person_nodes.csv")
-
 OUTPUT_ORGS = os.path.join(BASE, "organization_nodes.csv")
 OUTPUT_AFFILIATIONS = os.path.join(BASE, "person_affiliated_with.csv")
 
@@ -23,29 +22,39 @@ orgs = [
     ("org10", "OpenAI", "Company")
 ]
 
-# 💾 Guardar nodos de organizaciones
-with open(OUTPUT_ORGS, "w", newline='', encoding="utf-8") as f:
-    writer = csv.writer(f)
-    writer.writerow(["organization_id:ID(Organization)", "name", "type"])
-    writer.writerows(orgs)
+def write_organization_nodes(output_path, organizations):
+    with open(output_path, "w", newline='', encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(["organization_id:ID(Organization)", "name", "type"])
+        writer.writerows(organizations)
 
-# 📄 Cargar persons
-with open(INPUT_PERSONS, newline='', encoding="utf-8") as f:
-    reader = csv.DictReader(f)
-    person_ids = [row["person_id:ID(Person)"] for row in reader]
+def load_person_ids(input_path):
+    with open(input_path, newline='', encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        return [row["person_id"] for row in reader]
 
-# 🔗 Asignar aleatoriamente organizaciones
-affiliations = []
-for pid in person_ids:
-    org_id = random.choice(orgs)[0]
-    affiliations.append([pid, org_id])
+def assign_affiliations(person_ids, orgs):
+    affiliations = []
+    for pid in person_ids:
+        org_id = random.choice(orgs)[0]
+        affiliations.append([pid, org_id])
+    return affiliations
 
-# 💾 Guardar relaciones
-with open(OUTPUT_AFFILIATIONS, "w", newline='', encoding="utf-8") as f:
-    writer = csv.writer(f)
-    writer.writerow([":START_ID(Person)", ":END_ID(Organization)"])
-    writer.writerows(affiliations)
+def write_affiliations(output_path, affiliations):
+    with open(output_path, "w", newline='', encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(["person_id", ":organization_id"])
+        writer.writerows(affiliations)
 
-print("✅ Archivos generados con instituciones reales:")
-print(f" - {OUTPUT_ORGS}")
-print(f" - {OUTPUT_AFFILIATIONS}")
+def main():
+    write_organization_nodes(OUTPUT_ORGS, orgs)
+    person_ids = load_person_ids(INPUT_PERSONS)
+    affiliations = assign_affiliations(person_ids, orgs)
+    write_affiliations(OUTPUT_AFFILIATIONS, affiliations)
+
+    print("✅ Archivos generados con instituciones reales:")
+    print(f" - {OUTPUT_ORGS}")
+    print(f" - {OUTPUT_AFFILIATIONS}")
+
+if __name__ == "__main__":
+    main()
