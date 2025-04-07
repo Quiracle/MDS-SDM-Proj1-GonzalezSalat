@@ -65,7 +65,7 @@ cypher_statements = [
     """,
 
     """
-    LOAD CSV WITH HEADERS FROM 'file:///reviewer_reviews.csv' AS row
+    LOAD CSV WITH HEADERS FROM 'file:///reviews.csv' AS row
     MATCH (a:Person {person_id: row.person_id}), (p:Paper {paper_id: row.paper_id})
     CREATE (a)-[:REVIEWS]->(p);
     """,
