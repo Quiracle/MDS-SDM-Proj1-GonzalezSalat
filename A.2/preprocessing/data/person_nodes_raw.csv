@@ -100,14 +100,14 @@ person_id,name
 52561170,Petri Kotiranta
 2220934,Marko Junkkari
 2922951,J. Nummenmaa
-2335456,Leticia I. Gómez
-1693933,B. Kuijpers
 35089024,Vinh Phu Nguyen
 35655815,H. Y. Yip
 2108047195,Qingliang Li
 2083295023,Evan
 2080434643,Bolton
 1950081,O. Bodenreider
+2335456,Leticia I. Gómez
+1693933,B. Kuijpers
 9766598,G. V. Erven
 32535366,Rommel N. Carvalho
 39592606,Waldeyr M. C. Silva
@@ -144,21 +144,21 @@ person_id,name
 1705375,Jordi Cabot
 2082595527,Daniel Sánchez
 145305773,H. Florez
-40996948,Ray Neiheiser
-2521667,Daniel Presser
-144850855,Luciana Rech
-145326878,Manuel Bravo
-1741342,L. Rodrigues
-145250139,M. Correia
-1410733743,Youmna A. Megid
-1403979144,Neamat El-Tazi
-2409325,Aly Fahmy
 31472189,Polyane Wercelens
 2057331457,M. E. Walter
 1803518,M. Brigido
 40895294,Nahla Aburawi
 143879633,A. Lisitsa
 1706223,Frans Coenen
+1410733743,Youmna A. Megid
+1403979144,Neamat El-Tazi
+2409325,Aly Fahmy
+40996948,Ray Neiheiser
+2521667,Daniel Presser
+144850855,Luciana Rech
+145326878,Manuel Bravo
+1741342,L. Rodrigues
+145250139,M. Correia
 47010888,Ali Ismail
 2073794811,Ahmed Nahar
 49839849,Neil Swainston
@@ -189,16 +189,16 @@ person_id,name
 32267146,Daniel Hernández
 1706922,Cristian Riveros
 3470782,Enzo Zerega
-50378124,M. Das
-50118077,Yuqing Wu
-2236429,Tushar Khot
-1746871,K. Kersting
-145986014,Sriraam Natarajan
 40892737,Vasundra Touré
 2460428,Dagmar Waltemath
 8613913,Irina Balaur
 2028869,Ron Henkel
 50669606,J. Pellet
+50378124,M. Das
+50118077,Yuqing Wu
+2236429,Tushar Khot
+1746871,K. Kersting
+145986014,Sriraam Natarajan
 9613825,Gabriel Campero Durand
 3016228,Marcus Pinnecke
 1817470,David Broneske
@@ -214,25 +214,25 @@ person_id,name
 2589314,M. R. Islam
 2089333,J. Doppa
 2948541,Yinghui Wu
-1403594377,Sara D'Onofrio
-34069293,Marcel Wehrle
-2730618,Edy Portmann
-2102926579,Thomas Myrach
 2084117002,Graph Databases
 1403835168,Zahid Abul-Basher
 2967413,N. Yakovets
 144024329,P. Godfrey
 1409306700,Shadi Ghajar-Khosravi
 1796394,M. Chignell
+1403594377,Sara D'Onofrio
+34069293,Marcel Wehrle
+2730618,Edy Portmann
+2102926579,Thomas Myrach
 3019221,Peipei Yi
 1891554,Byron Choi
 1730344,S. Bhowmick
 9097705,Jianliang Xu
+2731035,A. Ammar
 2078490339,A. Czerepicki
 2982298,S. Das
 71371263,A. Goyal
 2503073,Sharma Chakravarthy
-2731035,A. Ammar
 51488437,Wisal Khan
 2061173271,E. Ahmed
 2193901,W. Shahzad
@@ -269,9 +269,9 @@ person_id,name
 47539394,Jinbo Zhang
 145322246,Hong H. Nguyen
 143663410,Feida Zhu
+1772311,Andrey Gubichev
 31380655,Raouf Bouhali
 145472032,Anne Laurent
-1772311,Andrey Gubichev
 21024202,D. Nicoară
 34399700,Shahin Kamali
 2176381,K. Daudjee

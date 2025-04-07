@@ -51,8 +51,8 @@ def main():
     INPUT_WROTE = "data/author_wrote.csv"
     INPUT_CORR = "data/corresponding_author.csv"
     INPUT_PAPERS = "data/paper_nodes.csv"
-    OUTPUT_REVIEWS = "data/reviewer_reviews.csv"
-    NUM_REVIEWERS = 2
+    OUTPUT_REVIEWS = "data/reviews.csv"
+    NUM_REVIEWERS = 3
 
     person_ids = load_person_ids(INPUT_PERSON)
     blocked_reviewers = load_blocked_reviewers(INPUT_WROTE, INPUT_CORR)

@@ -1,34 +1,34 @@
 journal_id,organization
-arXiv.org,IEEE Publishing
-Applied Sciences,ACM Press
-SIGMOD record,Oxford Press
-GRADES-NDA@SIGMOD,Springer
-LOG IN,IEEE Publishing
-The VLDB journal,Oxford Press
-Database J. Biol. Databases Curation,ACM Press
+arXiv.org,Springer
+Applied Sciences,IEEE Publishing
+SIGMOD record,IEEE Publishing
+GRADES-NDA@SIGMOD,IEEE Publishing
+LOG IN,Elsevier
+The VLDB journal,ACM Press
+Database J. Biol. Databases Curation,Oxford Press
 Undergraduate Topics in Computer Science,ACM Press
-Journal on Data Semantics,Springer
-IEEE Access,Oxford Press
-Knowledge Discovery and Data Mining,Elsevier
-Advances in Computer and Electrical Engineering,ACM Press
-ACM Computing Surveys,Elsevier
+Journal on Data Semantics,ACM Press
+IEEE Access,Springer
+Knowledge Discovery and Data Mining,Oxford Press
+Advances in Computer and Electrical Engineering,Oxford Press
+ACM Computing Surveys,Springer
 Theory of Computing Systems,IEEE Publishing
-BDCAT,Oxford Press
-GRADES/NDA@SIGMOD/PODS,Springer
-IEEE Transactions on Knowledge and Data Engineering,IEEE Publishing
-Trans. GIS,IEEE Publishing
-BlockSW/CKG@ISWC,ACM Press
-Journal of Database Management,ACM Press
-BioData Mining,Oxford Press
-Journal of Artificial Intelligence Research,Oxford Press
-PLoS ONE,Springer
-WorldCIST,IEEE Publishing
-GRADES@SIGMOD/PODS,Oxford Press
-SDM,Springer
-BMC Bioinformatics,Springer
-Vietnam Journal of Computer Science,Springer
+BDCAT,ACM Press
+GRADES/NDA@SIGMOD/PODS,ACM Press
+IEEE Transactions on Knowledge and Data Engineering,Oxford Press
+BlockSW/CKG@ISWC,Elsevier
+Trans. GIS,Elsevier
+Journal of Database Management,Oxford Press
+BioData Mining,ACM Press
+Journal of Artificial Intelligence Research,Elsevier
+PLoS ONE,Oxford Press
+WorldCIST,Springer
+GRADES@SIGMOD/PODS,Springer
+BMC Bioinformatics,ACM Press
+SDM,ACM Press
+Vietnam Journal of Computer Science,ACM Press
 IT Professional,Springer
-ANT/SEIT,IEEE Publishing
-Artificial Intelligence Applications and Innovations,ACM Press
-Computer,Springer
-PPAA '14,Springer
+ANT/SEIT,ACM Press
+Artificial Intelligence Applications and Innovations,Elsevier
+Computer,Elsevier
+PPAA '14,ACM Press
