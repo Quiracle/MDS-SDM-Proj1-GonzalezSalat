@@ -1,0 +1,11 @@
+organization_id:ID(Organization),name,type
+org1,Stanford University,University
+org2,MIT,University
+org3,University of Cambridge,University
+org4,ETH Zurich,University
+org5,Tsinghua University,University
+org6,Google,Company
+org7,Microsoft Research,Company
+org8,Meta AI,Company
+org9,IBM Research,Company
+org10,OpenAI,Company

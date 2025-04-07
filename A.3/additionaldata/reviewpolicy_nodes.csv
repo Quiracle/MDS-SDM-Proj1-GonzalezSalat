@@ -1,0 +1,4 @@
+review_policy_id:ID(ReviewPolicy),number_of_reviewers
+rp1,2
+rp2,3
+rp3,4
