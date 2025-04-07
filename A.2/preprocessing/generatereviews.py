@@ -2,60 +2,63 @@ import csv
 import random
 from collections import defaultdict
 
-# Archivos
-INPUT_PERSON = "data/person_nodes.csv"
-INPUT_WROTE = "data/author_wrote.csv"
-INPUT_CORR = "data/corresponding_author.csv"
-INPUT_PAPERS = "data/paper_nodes.csv"
-OUTPUT_REVIEWS = "data/reviewer_reviews.csv"
-
-# Número de reviewers por paper
-NUM_REVIEWERS = 2
-
-# 1. Cargar todos los person_id
-all_person_ids = set()
-with open(INPUT_PERSON, newline='', encoding="utf-8") as f:
-    reader = csv.DictReader(f)
-    for row in reader:
-        all_person_ids.add(row["person_id:ID(Person)"])
-
-# 2. Cargar autores y corresponding authors por paper
-paper_to_blocked_reviewers = defaultdict(set)
-
-for file in [INPUT_WROTE, INPUT_CORR]:
-    with open(file, newline='', encoding="utf-8") as f:
+def load_person_ids(input_path):
+    person_ids = set()
+    with open(input_path, newline='', encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for row in reader:
-            person = row[":START_ID(Person)"]
-            paper = row[":END_ID(Paper)"]
-            paper_to_blocked_reviewers[paper].add(person)
+            person_ids.add(row["person_id"])
+    return person_ids
 
-# 3. Cargar lista de papers
-all_papers = []
-with open(INPUT_PAPERS, newline='', encoding="utf-8") as f:
-    reader = csv.DictReader(f)
-    for row in reader:
-        all_papers.append(row["paper_id:ID(Paper)"])
+def load_blocked_reviewers(wrote_path, corr_path):
+    paper_to_blocked = defaultdict(set)
+    for path in [wrote_path, corr_path]:
+        with open(path, newline='', encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                paper_to_blocked[row["paper_id"]].add(row["person_id"])
+    return paper_to_blocked
 
-# 4. Generar relaciones REVIEWS
-reviews = []
+def load_paper_ids(papers_path):
+    paper_ids = []
+    with open(papers_path, newline='', encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            paper_ids.append(row["paper_id"])
+    return paper_ids
 
-for paper in all_papers:
-    blocked = paper_to_blocked_reviewers.get(paper, set())
-    eligible_reviewers = list(all_person_ids - blocked)
+def generate_reviews(paper_ids, person_ids, blocked_reviewers, num_reviewers=2):
+    reviews = []
+    for paper in paper_ids:
+        blocked = blocked_reviewers.get(paper, set())
+        eligible = list(person_ids - blocked)
+        to_sample = min(num_reviewers, len(eligible))
+        selected = random.sample(eligible, to_sample)
+        for reviewer in selected:
+            reviews.append((reviewer, paper))
+    return reviews
 
-    # Evitar errores si hay menos reviewers disponibles
-    num_to_sample = min(NUM_REVIEWERS, len(eligible_reviewers))
-    selected_reviewers = random.sample(eligible_reviewers, num_to_sample)
+def write_reviews_csv(reviews, output_path):
+    with open(output_path, "w", newline='', encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(["person_id", "paper_id"])
+        writer.writerows(reviews)
+    print(f"✅ Relaciones REVIEWS generadas: {len(reviews)} totales.")
+    print(f"📄 Archivo guardado como: {output_path}")
 
-    for reviewer in selected_reviewers:
-        reviews.append((reviewer, paper))
+def main():
+    INPUT_PERSON = "data/person_nodes.csv"
+    INPUT_WROTE = "data/author_wrote.csv"
+    INPUT_CORR = "data/corresponding_author.csv"
+    INPUT_PAPERS = "data/paper_nodes.csv"
+    OUTPUT_REVIEWS = "data/reviewer_reviews.csv"
+    NUM_REVIEWERS = 2
 
-# 5. Guardar archivo
-with open(OUTPUT_REVIEWS, "w", newline='', encoding="utf-8") as f:
-    writer = csv.writer(f)
-    writer.writerow([":START_ID(Person)", ":END_ID(Paper)"])
-    writer.writerows(reviews)
+    person_ids = load_person_ids(INPUT_PERSON)
+    blocked_reviewers = load_blocked_reviewers(INPUT_WROTE, INPUT_CORR)
+    paper_ids = load_paper_ids(INPUT_PAPERS)
+    reviews = generate_reviews(paper_ids, person_ids, blocked_reviewers, NUM_REVIEWERS)
+    write_reviews_csv(reviews, OUTPUT_REVIEWS)
 
-print(f"✅ Relaciones REVIEWS generadas: {len(reviews)} totales.")
-print(f"📄 Archivo guardado como: {OUTPUT_REVIEWS}")
+if __name__ == "__main__":
+    main()

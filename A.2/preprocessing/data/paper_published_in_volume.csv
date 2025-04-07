@@ -1,4 +1,4 @@
-:START_ID(Paper),:END_ID(Volume)
+paper_id,volume_id
 033275ccc2c7c5c38592ae893da0b5923cf90717,arXiv.org_Vol2023
 459cf4e6476d5e19f1bc422c162bcded54ca7f95,Applied Sciences_Vol2023
 1a85628dd645ea86b7c146613651fdb30bb32c1d,SIGMOD record_Vol2022
@@ -18,8 +18,8 @@ c858ba9bce833896b49878a6793dbb382ed83c9e,Advances in Computer and Electrical Eng
 d154d986c3a402c207c6c0e22093f2e1a878fe71,GRADES/NDA@SIGMOD/PODS_Vol2018
 2be77516f6233a9d3ebbf93b439c3658d955d2e5,IEEE Transactions on Knowledge and Data Engineering_Vol2018
 3876267a762615ac876df561b900aa6e564fc9b4,Applied Sciences_Vol2022
-39af4070dca3221d275898c55884167bc03fe73d,BlockSW/CKG@ISWC_Vol2019
 1f4bee77bb69b92dd16ce0c3ad0f477f4ecf1d30,Trans. GIS_Vol2019
+39af4070dca3221d275898c55884167bc03fe73d,BlockSW/CKG@ISWC_Vol2019
 6e4e15ab0d55232b93e76ddecb6c969a0d18f853,Journal of Database Management_Vol2019
 647d0e540627c5a903299a90d20530f8e48c18d9,BioData Mining_Vol2016
 8ada773522e0cc1b1a1b36b8e5d85417794a875f,Journal of Artificial Intelligence Research_Vol2018

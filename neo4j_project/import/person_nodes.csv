@@ -1,28 +1,21 @@
 person_id,name
 10217996,D. Kell
 103774486,M. Mačák
-103774486_corr,Unknown
 105033100,R. McColl
-105033100_corr,Unknown
 13290587,E. Peter
 1389415257,Maximiliano Valverde
 1394869912,Florencia Besteiro
 1398238537,I. Comyn-Wattiau
-1398238537_corr,Unknown
 1400900759,R. Batista-Navarro
 1401234110,R. Martínez-Tomás
 1403594377,Sara D'Onofrio
-1403594377_corr,Unknown
 1403702365,Santiago Timón-Reina
-1403702365_corr,Unknown
 1403809434,Olga Siedlecka-Lamch
 1403835168,Zahid Abul-Basher
 1403979144,Neamat El-Tazi
 1409306700,Shadi Ghajar-Khosravi
 1410733743,Youmna A. Megid
-1410733743_corr,Unknown
 1419556433,Zongyue Qin
-1419556433_corr,Unknown
 143663410,Feida Zhu
 143704623,Prado Santos
 143842962,H. Voigt
@@ -34,20 +27,16 @@ person_id,name
 144153647,M. Schuster
 144171096,Pedro A. Szekely
 144245703,Harsh Thakkar
-144245703_corr,Unknown
 144302930,T. Sellis
 144329188,P. Furniss
 144392618,Gwendal Daniel
-144392618_corr,Unknown
 144416706,M. Rincón
 144494743,Zhe Wu
 144568027,Jens Lehmann
 144641551,G. Alonso
 144658846,M. Arenas
-144658846_corr,Unknown
 144666776,J. Yu
 144668991,J. Pokorný
-144668991_corr,Unknown
 144750678,M. Romero
 144768011,Claudio Gutiérrez
 144773815,Jesse Weaver
@@ -69,12 +58,9 @@ person_id,name
 145770133,Lu Qin
 145986014,Sriraam Natarajan
 14886336,Ye Yuan
-14886336_corr,Unknown
 15022199,Tiancheng Chen
 150349792,Yongjiang Liang
-150349792_corr,Unknown
 151121638,Meng-Chieh Lee
-151121638_corr,Unknown
 1681226,L. Libkin
 1684751,V. Tseng
 1685097,A. Jayasumana
@@ -83,7 +69,6 @@ person_id,name
 1695194,A. Picariello
 1696394,A. Ghafoor
 1699192,A. Bonifati
-1699192_corr,Unknown
 1702139,J. Leskovec
 1702306,Gerson Sunyé
 1702467,P. Prosser
@@ -96,7 +81,6 @@ person_id,name
 1709784,A. Maccioni
 1713030,David A. Bader
 1713172,W. Didimo
-1713172_corr,Unknown
 1713648,T. Hoefler
 1714025,Dirk Fahland
 1716043,Jorge Bernardino
@@ -113,9 +97,7 @@ person_id,name
 1746871,K. Kersting
 1751143,B. Strug
 1752888049,Malgorzata Lazarska
-1752888049_corr,Unknown
 1772311,Andrey Gubichev
-1772311_corr,Unknown
 1774041,D. Haglin
 1777646,Dominik Tomaszuk
 1791547,M. X. Ribeiro
@@ -124,16 +106,13 @@ person_id,name
 1798186,J. Feo
 1803518,M. Brigido
 1804361,Dong Dai
-1804361_corr,Unknown
 1809608,A. Silvescu
-1809608_corr,Unknown
 1817470,David Broneske
 1821099,Xiuzhen Zhang
 1828049,Jason A. Poovey
 18356904,Michal Podstawski
 1850588,Radu Ciucanu
 1860924,Shashika Ranga Muramudalige
-1860924_corr,Unknown
 1864942,Alan R. Williams
 1881965,S. Ananiadou
 1891554,Byron Choi
@@ -142,57 +121,41 @@ person_id,name
 1903798,N. Advokaat
 1950081,O. Bodenreider
 1968180,Yuanyuan Tian
-1968180_corr,Unknown
 1977200,M. Musicante
 2019538,Vito Giovanni Castellana
-2019538_corr,Unknown
 2028869,Ron Henkel
 2044319,Christos Tjortjis
-2044319_corr,Unknown
 2054073851,Chandan Sharma
-2054073851_corr,Unknown
 2057331457,M. E. Walter
 2058740,Russell Harmer
 2059572334,Carlos Rojas
 2061173271,E. Ahmed
 2064249638,Alexander Campos
-2064249638_corr,Unknown
 2064473584,Alice Zhou
 2064791867,Diogo Fernandes
-2064791867_corr,Unknown
 2065468132,Chinmay Kundu
 2066074494,J. Guia
-2066074494_corr,Unknown
 2066369448,Mikhail Galkin
 2070105034,A. Vaisman
-2070105034_corr,Unknown
 2073559355,Piotr Wieczorek
 2073794811,Ahmed Nahar
 2078490339,A. Czerepicki
-2078490339_corr,Unknown
 2080434643,Bolton
 2082595527,Daniel Sánchez
-2082595527_corr,Unknown
 2083295023,Evan
 2084117002,Graph Databases
-2084117002_corr,Unknown
 2089333,J. Doppa
 2102129,Arnaud Castelltort
-2102129_corr,Unknown
 21024202,D. Nicoară
-21024202_corr,Unknown
 2102926579,Thomas Myrach
 2108047195,Qingliang Li
 2109461904,Yizhou Sun
 2109590665,Haixun Wang
 2110490847,H. Nguyen
 2110677374,Manpreet Singh
-2110677374_corr,Unknown
 2111034665,Yun Peng
-2111034665_corr,Unknown
 2112395404,Lucas Cesar Ferreira
 2121691833,Ariel Debrouvier
-2121691833_corr,Unknown
 2121692012,Eliseo Parodi
 2121692039,Matías Perazzo
 2121701124,Valeria Soliani
@@ -205,38 +168,29 @@ person_id,name
 2198707,Peixiang Zhao
 2207212,Sungpack Hong
 2207401,Oshini Goonetilleke
-2207401_corr,Unknown
 2216703472,Jéssica Monteiro
-2216703472_corr,Unknown
 2217073,A. Jervis
 2220934,Marko Junkkari
 2236429,Tushar Khot
 2238861,Dimitris Berberidis
 22573315,D. Punjani
 2271992963,Julius Hřivnáč
-2271992963_corr,Unknown
 2285406,J. Akoka
 2298635186,Karamjit Kaur
 2335456,Leticia I. Gómez
-2335456_corr,Unknown
 2338598,Oreste Villa
 2341999,P. Selmer
 23605695,Yann Ramusat
-23605695_corr,Unknown
 2371988,S. A. T. Mpinda
-2371988_corr,Unknown
 2409325,Aly Fahmy
 2410119,E. G. Caldarola
-2410119_corr,Unknown
 2434366,D. Vrgoč
 2454799,P. Guagliardo
 2460428,Dagmar Waltemath
 2478931,Juan L. Reutter
-2478931_corr,Unknown
 25003800,Kazuki Osawa
 2503073,Sharma Chakravarthy
 2516234,Benoît Groz
-2516234_corr,Unknown
 2520357,Alessandro Morari
 2521667,Daniel Presser
 25355201,Jirí Kovacic
@@ -248,49 +202,36 @@ person_id,name
 2606269,Antonino Tumeo
 2661384,R. Breitling
 2728740,K. Rabuzin
-2728740_corr,Unknown
 2730618,Edy Portmann
 2731035,A. Ammar
-2731035_corr,Unknown
 2748632,Stefan Plantikow
 2772109,Renzo Angles
-2772109_corr,Unknown
 2790411,Filipe Sá
 2835741,Irina A. Roznovat
 2856719,Guillaume Bagan
-2856719_corr,Unknown
 2872113,M. Namaki
-2872113_corr,Unknown
 2873542,Xuemin Lin
 2919642,Maciej Besta
-2919642_corr,Unknown
 2922951,J. Nummenmaa
 2948541,Yinghui Wu
 2967413,N. Yakovets
 2969299,David Ediger
 2982298,S. Das
-2982298_corr,Unknown
 3016228,Marcus Pinnecke
 3019221,Peipei Yi
-3019221_corr,Unknown
 3019341,Barbora Buhnova
 3083019,Sérgio Lifschitz
 3118051,Francesco Giacchè
 31380655,Raouf Bouhali
-31380655_corr,Unknown
 31435894,Akshay Kansal
-31435894_corr,Unknown
 31472189,Polyane Wercelens
 31590259,C. Rawlings
 3159707,O. V. Rest
 31846192,Tobias Lindaaker
 3188030,Claude Barthels
 3215556,Ciaran McCreesh
-3215556_corr,Unknown
 32267146,Daniel Hernández
-32267146_corr,Unknown
 3246503,M. Sevenich
-3246503_corr,Unknown
 32535366,Rommel N. Carvalho
 3255268,L. Akoglu
 3255652,Benjamin W. K. Hung
@@ -301,73 +242,50 @@ person_id,name
 34069293,Marcel Wehrle
 34110040,H. V. Olivera
 3418946,Bingqing Lyu
-3418946_corr,Unknown
 34399700,Shahin Kamali
 34533996,Z. Zhang
-34533996_corr,Unknown
 34580886,R. D. Virgilio
-34580886_corr,Unknown
 3470782,Enzo Zerega
 34815790,U. S. Costa
 34856697,M. Valenta
 35003282,O. Lassila
 35089024,Vinh Phu Nguyen
-35089024_corr,Unknown
 35106192,P. Barceló
 35655815,H. Y. Yip
 35774662,F. R. Chowdhury
 36994619,A. Lysenko
-36994619_corr,Unknown
 38736958,Lijun Chang
 39064908,Valéria Gonçalves Soares
 39269062,Milan Cvitkovic
-39269062_corr,Unknown
 39592606,Waldeyr M. C. Silva
-39592606_corr,Unknown
 40046694,Hongyu Ren
-40046694_corr,Unknown
 4023152,M. Dunstan
 4047075,Anil Pacaci
-4047075_corr,Unknown
 40892737,Vasundra Touré
-40892737_corr,Unknown
 40895294,Nahla Aburawi
-40895294_corr,Unknown
 40977242,S. Esser
-40977242_corr,Unknown
 40996948,Ray Neiheiser
-40996948_corr,Unknown
 4383001,N. Scrutton
 46207591,Fred C. Santos
-46207591_corr,Unknown
 47010888,Ali Ismail
-47010888_corr,Unknown
 47539394,Jinbo Zhang
-47539394_corr,Unknown
 47557631,Yong Chen
 47774578,Zhe Fan
 48035814,Aurélien Lemay
 48107154,A. Mazein
 48528884,M. Arshad
-48528884_corr,Unknown
 48662628,C. Auffray
 49061836,Alastair Green
-49061836_corr,Unknown
 49330176,Lei Chen
 49839849,Neil Swainston
-49839849_corr,Unknown
 50118077,Yuqing Wu
 50378124,M. Das
-50378124_corr,Unknown
 50669606,J. Pellet
 50701671,M. Saqi
 51228791,Yunsheng Bai
 51229930,Soad Almabdy
-51229930_corr,Unknown
 51488437,Wisal Khan
-51488437_corr,Unknown
 52561170,Petri Kotiranta
-52561170_corr,Unknown
 6324301,J. Faulon
 71371263,A. Goyal
 71636032,Eugenia Oshurko
@@ -379,9 +297,6 @@ person_id,name
 9083969,Moshe Y. Vardi
 9097705,Jianliang Xu
 9106917,Rohit kumar Kaliyar
-9106917_corr,Unknown
 9613825,Gabriel Campero Durand
-9613825_corr,Unknown
 96510111,P. Mendes
 9766598,G. V. Erven
-9766598_corr,Unknown

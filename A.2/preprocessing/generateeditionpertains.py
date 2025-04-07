@@ -1,23 +1,28 @@
 import csv
 
-# Entradas y salida
-INPUT_EDITION = "data/edition_nodes.csv"              # Tiene edition_id
-INPUT_EDITION_EVENT = "data/edition_pertains_event.csv"  # Edition → Venue
-OUTPUT_REL = "data/edition_pertains_conferenceworkshop.csv"
+def read_edition_event_rels(input_path):
+    rels = []
+    with open(input_path, newline='', encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            edition = row["edition_id"]
+            event = row["name"]
+            rels.append([edition, event])
+    return rels
 
-# Cargar relaciones existentes
-rels = []
-with open(INPUT_EDITION_EVENT, newline='', encoding="utf-8") as f:
-    reader = csv.DictReader(f)
-    for row in reader:
-        edition = row[":START_ID(Edition)"]
-        event = row[":END_ID(Venue)"]
-        rels.append([edition, event])  # Reusamos los mismos valores
+def write_conferenceworkshop_rels(rels, output_path):
+    with open(output_path, "w", newline='', encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(["edition_id", "name"])
+        writer.writerows(rels)
+    print("✅ Archivo 'edition_pertains_conferenceworkshop.csv' generado correctamente.")
 
-# Guardar nuevo archivo con tipo ConferenceWorkshop
-with open(OUTPUT_REL, "w", newline='', encoding="utf-8") as f:
-    writer = csv.writer(f)
-    writer.writerow([":START_ID(Edition)", ":END_ID(ConferenceWorkshop)"])
-    writer.writerows(rels)
+def main():
+    INPUT_EDITION_EVENT = "data/edition_pertains_event.csv"
+    OUTPUT_REL = "data/edition_pertains_conferenceworkshop.csv"
 
-print("✅ Archivo 'edition_pertains_conferenceworkshop.csv' generado correctamente.")
+    rels = read_edition_event_rels(INPUT_EDITION_EVENT)
+    write_conferenceworkshop_rels(rels, OUTPUT_REL)
+
+if __name__ == "__main__":
+    main()
