@@ -3,7 +3,11 @@ import random
 import os
 
 # Route configuration
-INPUT_REVIEWS = os.path.join("..", "..", "neo4j_project", "import", "reviews.csv")
+import os
+
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+INPUT_REVIEWS = os.path.abspath(os.path.join(SCRIPT_DIR, "../../neo4j_project/import/reviews.csv"))
+
 OUTPUT_REVIEWS = os.path.join(os.path.dirname(__file__), "reviews_extended.csv")
 DECISION_CHOICES = ["Approved", "Denied"]
 

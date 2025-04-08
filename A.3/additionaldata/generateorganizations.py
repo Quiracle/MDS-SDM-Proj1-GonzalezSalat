@@ -4,7 +4,8 @@ import random
 
 BASE = os.path.dirname(__file__)
 
-INPUT_PERSONS = os.path.join("..", "..", "A.2", "preprocessing", "data", "person_nodes.csv")
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+INPUT_PERSONS = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", "neo4j_project", "import", "person_nodes.csv"))
 OUTPUT_ORGS = os.path.join(BASE, "organization_nodes.csv")
 OUTPUT_AFFILIATIONS = os.path.join(BASE, "person_affiliated_with.csv")
 
