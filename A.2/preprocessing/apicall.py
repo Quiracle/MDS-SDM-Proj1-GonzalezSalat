@@ -140,8 +140,8 @@ def write_csvs(papers, people, keywords, venues, wrote_rels, cites_rels, pubin_r
         for pid, name in people.items():
             writer.writerow([pid, name])
 
-    print("✅ ¡CSV exportado correctamente en carpeta 'data/'!")
-    print("✅ Archivo person_nodes_raw.csv generado")
+    print("¡CSV created successfully in 'data/'!")
+    print("CSV person_nodes_raw.csv generated")
 
 def main():
     results = []

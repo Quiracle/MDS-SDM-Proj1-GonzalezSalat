@@ -55,7 +55,7 @@ def main():
     extended_reviews = generate_reviews(reviews, papers_positives, POSITIVE_CONTENT, NEGATIVE_CONTENT)
     write_reviews(OUTPUT_REVIEWS, extended_reviews)
 
-    print(f"✅ Archivo generado: {OUTPUT_REVIEWS} con {len(extended_reviews)} reviews")
+    print(f"File: {OUTPUT_REVIEWS} generated with {len(extended_reviews)} reviews")
 
 if __name__ == "__main__":
     main()

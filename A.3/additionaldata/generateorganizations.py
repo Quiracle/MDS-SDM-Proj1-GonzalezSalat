@@ -52,7 +52,7 @@ def main():
     affiliations = assign_affiliations(person_ids, orgs)
     write_affiliations(OUTPUT_AFFILIATIONS, affiliations)
 
-    print("✅ Archivos generados con instituciones reales:")
+    print("File generated with institutions:")
     print(f" - {OUTPUT_ORGS}")
     print(f" - {OUTPUT_AFFILIATIONS}")
 

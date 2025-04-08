@@ -68,7 +68,7 @@ def main():
     write_csv(OUTPUT_PUBLISHED_IN_ED, ["paper_id", "edition_id"], paper_ed_rels)
     write_csv(OUTPUT_PERTAINS, ["edition_id", "name"], edition_event_rels)
 
-    print("✅ Nodos Edition y relaciones generadas correctamente")
+    print("Node Edition and relationships generated successfully")
 
 if __name__ == "__main__":
     main()

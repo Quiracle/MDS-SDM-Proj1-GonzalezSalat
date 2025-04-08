@@ -15,7 +15,7 @@ def write_conferenceworkshop_rels(rels, output_path):
         writer = csv.writer(f)
         writer.writerow(["edition_id", "name"])
         writer.writerows(rels)
-    print("✅ Archivo 'edition_pertains_conferenceworkshop.csv' generado correctamente.")
+    print(" 'edition_pertains_conferenceworkshop.csv' generated successfully")
 
 def main():
     INPUT_EDITION_EVENT = "data/edition_pertains_event.csv"

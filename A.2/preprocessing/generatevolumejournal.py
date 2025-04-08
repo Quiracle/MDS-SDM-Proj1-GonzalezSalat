@@ -97,7 +97,7 @@ def main():
     write_relationship_csv(paper_vol_rels, PAPER_PUBLISHED_IN_VOLUME, ["paper_id", "volume_id"])
     write_relationship_csv(vol_jour_rels, VOLUME_PERTAINS_JOURNAL, ["volume_id", "journal_id"])
 
-    print("✅ Volumes y Journals generados correctamente.")
+    print(" Volumes and Journals created sucessfully.")
 
 if __name__ == "__main__":
     main()

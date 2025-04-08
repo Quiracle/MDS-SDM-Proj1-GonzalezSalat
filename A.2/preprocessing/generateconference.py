@@ -15,7 +15,7 @@ def write_conferenceworkshop_nodes(venue_names, output_path):
         writer.writerow(["name"])
         for name in sorted(venue_names):
             writer.writerow([name])
-    print("✅ Archivo 'conferenceworkshop_nodes.csv' generado correctamente.")
+    print(" 'conferenceworkshop_nodes.csv' generated successfully")
 
 def main():
     INPUT_VENUE = "data/venue_nodes.csv"
