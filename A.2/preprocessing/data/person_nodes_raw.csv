@@ -100,14 +100,14 @@ person_id,name
 52561170,Petri Kotiranta
 2220934,Marko Junkkari
 2922951,J. Nummenmaa
+2335456,Leticia I. Gómez
+1693933,B. Kuijpers
 35089024,Vinh Phu Nguyen
 35655815,H. Y. Yip
 2108047195,Qingliang Li
 2083295023,Evan
 2080434643,Bolton
 1950081,O. Bodenreider
-2335456,Leticia I. Gómez
-1693933,B. Kuijpers
 9766598,G. V. Erven
 32535366,Rommel N. Carvalho
 39592606,Waldeyr M. C. Silva
@@ -122,12 +122,12 @@ person_id,name
 48662628,C. Auffray
 1752888049,Malgorzata Lazarska
 1403809434,Olga Siedlecka-Lamch
-1394869912,Florencia Besteiro
-1389415257,Maximiliano Valverde
 1860924,Shashika Ranga Muramudalige
 3255652,Benjamin W. K. Hung
 1685097,A. Jayasumana
 144039860,I. Ray
+1394869912,Florencia Besteiro
+1389415257,Maximiliano Valverde
 3215556,Ciaran McCreesh
 1702467,P. Prosser
 1741346,Christine Solnon
@@ -144,21 +144,21 @@ person_id,name
 1705375,Jordi Cabot
 2082595527,Daniel Sánchez
 145305773,H. Florez
-31472189,Polyane Wercelens
-2057331457,M. E. Walter
-1803518,M. Brigido
-40895294,Nahla Aburawi
-143879633,A. Lisitsa
-1706223,Frans Coenen
-1410733743,Youmna A. Megid
-1403979144,Neamat El-Tazi
-2409325,Aly Fahmy
 40996948,Ray Neiheiser
 2521667,Daniel Presser
 144850855,Luciana Rech
 145326878,Manuel Bravo
 1741342,L. Rodrigues
 145250139,M. Correia
+40895294,Nahla Aburawi
+143879633,A. Lisitsa
+1706223,Frans Coenen
+31472189,Polyane Wercelens
+2057331457,M. E. Walter
+1803518,M. Brigido
+1410733743,Youmna A. Megid
+1403979144,Neamat El-Tazi
+2409325,Aly Fahmy
 47010888,Ali Ismail
 2073794811,Ahmed Nahar
 49839849,Neil Swainston
@@ -214,16 +214,16 @@ person_id,name
 2589314,M. R. Islam
 2089333,J. Doppa
 2948541,Yinghui Wu
+1403594377,Sara D'Onofrio
+34069293,Marcel Wehrle
+2730618,Edy Portmann
+2102926579,Thomas Myrach
 2084117002,Graph Databases
 1403835168,Zahid Abul-Basher
 2967413,N. Yakovets
 144024329,P. Godfrey
 1409306700,Shadi Ghajar-Khosravi
 1796394,M. Chignell
-1403594377,Sara D'Onofrio
-34069293,Marcel Wehrle
-2730618,Edy Portmann
-2102926579,Thomas Myrach
 3019221,Peipei Yi
 1891554,Byron Choi
 1730344,S. Bhowmick
@@ -261,24 +261,24 @@ person_id,name
 2109590665,Haixun Wang
 2110677374,Manpreet Singh
 2298635186,Karamjit Kaur
+47539394,Jinbo Zhang
+145322246,Hong H. Nguyen
+143663410,Feida Zhu
 2371988,S. A. T. Mpinda
 2112395404,Lucas Cesar Ferreira
 1791547,M. X. Ribeiro
 72166011,Marilde Terezinha
 143704623,Prado Santos
-47539394,Jinbo Zhang
-145322246,Hong H. Nguyen
-143663410,Feida Zhu
 1772311,Andrey Gubichev
 31380655,Raouf Bouhali
 145472032,Anne Laurent
 21024202,D. Nicoară
 34399700,Shahin Kamali
 2176381,K. Daudjee
-2102129,Arnaud Castelltort
 2410119,E. G. Caldarola
 1695194,A. Picariello
 33163897,A. M. Rinaldi
+2102129,Arnaud Castelltort
 2207401,Oshini Goonetilleke
 25635969,Saket K. Sathe
 144302930,T. Sellis
@@ -300,3 +300,408 @@ person_id,name
 1713030,David A. Bader
 1709784,A. Maccioni
 1718274,Riccardo Torlone
+2145774899,Chengjie Chen
+2149052058,Hao Chen
+2153911296,Yi Zhang
+40451574,Hannah R Thomas
+143915524,Margaret H. Frank
+4098270,Yehua He
+144304984,Rui Xia
+144605904,J. Manyika
+47666658,Hsinchun Chen
+145802082,R. Chiang
+1764975,V. Storey
+3132693,Andrew P. McAfee
+2841157,Erik Brynjolfsson
+2855934,Ali Hassani
+102471415,Steven Walton
+2087066452,Nikhil Shah
+133551208,Abulikemu Abuduweili
+2125031571,Jiachen Li
+48667025,Humphrey Shi
+2269971203,Wasnaa Kadhim Jawad
+2261850659,Abbas M. Al-Bakry
+2416504,Kornelia M. Batko
+2079538975,A. Ślęzak
+46251839,Arsalan Zahid Piprani
+2237403667,Amjad Ali
+2283455003,Adeel Shah
+2348402835,Amir Gandomi
+39060992,Murtaza Haider
+38818867,D. Boyd
+48024382,K. Crawford
+2150744,D. Acharjya
+2285074747,P. KauserAhmed
+2881033,Solon Barocas
+46432110,Andrew D. Selbst
+120550117,T. Doyle
+2139634153,Wen-Tao Wu
+12013287,Yuan-jie Li
+1500673788,Aozi Feng
+2156059845,Li Li
+2110812737,Tao Huang
+143908701,A. Xu
+80193067,Jun Lyu
+2152634067,In Lee
+2468335,George Mangalaraj
+2186480691,Mohan Naik Ramachandra
+2200758545,Madala Srinivasa Rao
+2150706913,W. Lai
+65965701,P. Divakarachari
+2200528122,Jayachandra Ananda Babu
+2143272549,Hemalatha Kivudujogappa Lingappa
+50556355,F. Tao
+49776606,Jiangfeng Cheng
+29011153,Qinglin Qi
+47474337,Meng Zhang
+2153527172,He Zhang
+50470670,Fangyuan Sui
+2289710033,Kenneth Cukier
+46584628,Junliang Wang
+153250242,Chuqiao Xu
+50561597,Jie Zhang
+2068352939,Ray Y. Zhong
+119723024,John T. Hancock
+1725285,T. Khoshgoftaar
+34859953,Yisheng Lv
+2241838,Y. Duan
+1903243,Wenwen Kang
+2146248481,Z. Li
+143769760,Feiyue Wang
+144984672,N. Misra
+144929055,Y. Dixit
+1403270550,A. Al-Mallahi
+35436614,Manreet Bhullar
+47232798,R. Upadhyay
+144186679,A. Martynenko
+1399003993,F. Emmert-Streib
+1698784963,Zhenyi Yang
+2113276011,Han Feng
+89377594,S. Tripathi
+1792351,M. Dehmer
+2749823,S. Wamba
+143809890,A. Gunasekaran
+1864298,Shahriar Akter
+121781054,S. Ren
+2051250,Rameshwar Dubey
+2327630,S. Childe
+134251468,K. Jablonka
+17711197,D. Ongari
+144683061,S. M. Moosavi
+144189527,B. Smit
+2143716975,Jin Wang
+47795877,Yaqiong Yang
+2118913820,Tian Wang
+145165793,R. Sherratt
+2108122564,Jingyu Zhang
+50378979,S. Bhat
+144847901,N. Huang
+38608914,G. T. Reddy
+49247239,M. P. K. Reddy
+51017707,Kuruva Lakshmanna
+46234199,Rajesh Kaluri
+32336300,D. Rajput
+2176030144,Gautam Srivastava
+2287603163,Ieee Thar Baker Senior Member
+1702878,M. Schermann
+2414189,Holmer Hemsen
+2080786832,Christoph Buchmüller
+2092936661,Till Bitter
+1712422,H. Krcmar
+1733290,V. Markl
+2069618919,T. Hoeren
+2144586446,Jin Yang
+50384351,Qingqing Liu
+2118916449,Tianyi Wang
+120615721,Shuai Zheng
+143908700,Anding Xu
+9139705,Amina Adadi
+2257020336,Srikanth Thudumu
+1729840,P. Branch
+38152929,Jiong Jin
+1490967734,Jugdutt Singh
+143649421,Andrew Beam
+1740538,I. Kohane
+2271668292,Xindong Wu
+2283098327,Xingquan Zhu
+2286440807,Gong-Qing Wu
+2286232238,Wei Ding
+2448041,S. Wolfert
+47641392,L. Ge
+3059861,C. Verdouw
+98639980,M. Bogaardt
+2735257,U. Sivarajah
+1772062,M. Kamal
+1690610,Z. Irani
+1683959,V. Weerakkody
+2056343176,Marzieh Fathi
+134403952,Mostafa Haghi Kashani
+2277388,S. M. Jameii
+2719926,Ebrahim Mahdipour
+2275848903,Itay Goldstein
+102309470,Chester Spatt
+2240347692,Mao Ye
+3797258,Z. Obermeyer
+39714312,E. Emanuel
+1809915,Naeem Seliya
+1723353821,Azadeh Abdollah Zadeh
+97912846,Z. Ageed
+52132700,Subhi R. M. Zeebaree
+100960057,M. Sadeeq
+66319662,S. F. Kak
+150129010,H. Yahia
+2059356907,M. R. Mahmood
+92799939,I. Ibrahim
+48803731,Hui Luan
+1804075,P. Géczy
+3307051,H. Lai
+145620991,J. Gobert
+153909377,Stephen J. H. Yang
+35043342,H. Ogata
+1802882,J. Baltes
+2055050266,R. Guerra
+2158235850,Ping Li
+2250062,Chin-Chung Tsai
+1825498,Ikbal Taleb
+2394689,M. Serhani
+1949827,Chafik Bouhaddioui
+1741232,R. Dssouli
+1752945,Maryam Ghasemaghaei
+51202981,G. Calic
+49415495,Yichuan Wang
+8991498,LeeAnn Kung
+1826467,T. Byrd
+2277231466,Martin Strohbach
+2288855760,AS A Commodity
+47212878,Sabyasachi Dash
+49790135,S. Shakyawar
+145451018,Mohit Sharma
+2066084551,S. Kaushik
+1696238,W. Raghupathi
+2742266,V. Raghupathi
+1979817,M. M. Najafabadi
+2142983,Flavio Villanustre
+145539319,Randall Wald
+50076239,Edin A. Muharemagic
+8752082,Sam Goundar
+2606653,Akashdeep Bhardwaj
+2108409767,Shavindar Singh
+2159706268,Mandeep Singh
+9313397,H. Gururaj
+2265002225,Philip Chen
+2264425447,Chun-Yang Zhang
+35641358,S. Shilo
+1482559324,H. Rossman
+143991343,E. Segal
+3009404,V. Christophides
+3226264,Vasilis Efthymiou
+1725167,Themis Palpanas
+144774666,G. Papadakis
+12619004,Kostas Stefanidis
+152117542,S. Singhal
+40362338,M. Hernán
+145607066,J. Robins
+122358516,Omar Alghushairy
+51228069,Raed Alsini
+1705671,T. Soule
+1920715,Xiaogang Ma
+145963904,I. A. T. Hashem
+3264408,Ibrar Yaqoob
+1940692,N. B. Anuar
+145463228,Salimah Mokhtar
+143930319,A. Gani
+1740261,S. Khan
+1567584468,Christian Fischer
+1743903,Z. Pardos
+144849745,R. Baker
+1580222881,J. Williams
+1630595717,P. Smyth
+50846470,Renzhe Yu
+36472283,Stefan Slater
+145155831,Rachel B. Baker
+2996242,M. Warschauer
+145153297,Hao Zhu
+144152608,Hossein Hassani
+2541805,Christina Beneki
+1657286983,Stephane Unger
+1577833677,Maedeh Taj Mazinani
+71693831,M. R. Yeganegi
+2424691,Patrick Mikalef
+52222865,Maria Boura
+3357578,George Lekakos
+1716522,J. Krogstie
+2125885487,P. S. G. Aruna Sri
+152170791,Anusha M
+70039026,C. Blome
+1879141,T. Papadopoulos
+1763674,E. Deutsch
+2865038,N. Bandeira
+33582313,Vagisha Sharma
+1390051934,Yasset Pérez-Riverol
+31411209,Jeremy J. Carver
+1605658912,D. J. Kundu
+1402417041,D. García-Seisdedos
+4007395,Andrew F. Jarnuczak
+13084208,Suresh Hewapathirana
+39268701,B. Pullman
+151067942,J. Wertz
+14948487,Zhi Sun
+46994990,S. Kawano
+48576550,Shujiro Okuda
+49701119,Yu Watanabe
+1785886,H. Hermjakob
+144252544,B. MacLean
+2167765,M. MacCoss
+2762241,Yun-ping Zhu
+91596213,Y. Ishihama
+3245770,J. Vizcaíno
+39466716,Lida Xu
+2055791334,Lian Duan
+4096586,Li Zhu
+1696615,F. Yu
+51224577,Yige Wang
+145550711,B. Ning
+144543527,T. Tang
+2247069462,W. N. Price
+2237824370,I. G. Cohen
+1971318,Alireza Alaei
+22271779,S. Becken
+3281237,Bela Stantic
+30757622,Sayantan Khanra
+1889986,A. Dhir
+3062994,Matti Mäntymäki
+35207612,Alberto Ferraris
+40119435,A. Mazzoleni
+2160518,A. Devalle
+48704195,Jerome Couturier
+145373888,Reihaneh H. Hariri
+1891097,Erik M. Fredericks
+40647665,Kate M. Bowers
+46933871,M.S. Mahmud
+152292148,J. Huang
+2128523,Salman Salloum
+2894178,Tamer Z. Emara
+1680649161,Kuanishbay Sadatdiynov
+120783473,Chong-chong Qi
+103731383,M. Hasan
+51218701,J. Popp
+144078473,J. Oláh
+11918365,N. S. Seyed Tabib
+89037982,M. Madgwick
+47798382,P. Sudhakar
+6050881,B. Verstockt
+2961601,T. Korcsmáros
+3615640,S. Vermeire
+145772858,Zhihan Lv
+2116431916,Xiaoming Li
+38929912,Haibin Lv
+9138305,Wenqun Xiu
+1481047992,Abou Zakaria Faroukhi
+1394504819,Imane El Alaoui
+2360190,Youssef Gahi
+40360441,A. Amine
+144188958,Imran Ahmed
+50277477,Misbah Ahmad
+1798121,Gwanggil Jeon
+1784067,F. Piccialli
+144894714,V. Grover
+38804760,Ting-Peng Liang
+33006924,Dongsong Zhang
+1751969372,C. Fan
+143902767,D. Yan
+2057532745,F. Xiao
+2112329722,Ao Li
+2610610,Jingjing An
+2072531339,Xuyuan Kang
+145096938,Mariam Baig
+89333756,Liyana Shuib
+46723193,E. Yadegaridehkordi
+145194157,Jianjun Luo
+2140053420,Ziming Wang
+2112246116,Liang Xu
+9870307,A. Wang
+145916712,K. Han
+153189200,Tao Jiang
+80938908,Qingsong Lai
+2141377585,Yu Bai
+92015504,Wei-Yao Tang
+9933376,F. Fan
+1390879413,Zhong Lin Wang
+2144794493,Jie Huang
+2302556600,Cheng-Xiang Wang
+2075396941,L. Bai
+2152916916,Yang Yang
+2149869431,Jie Li
+1735048,O. Tirkkonen
+2236529,Ming-Tuo Zhou
+150202182,Mohamed Ahzam Amanullah
+96997078,R. Habeeb
+2215941,F. Nasaruddin
+145993580,E. Ahmed
+1504149495,Abdul Salam Mohamed Nainar
+1504080542,Nazihah Md. Akim
+2113544439,Muhammad Imran
+71940750,Hafiz Suliman Munawar
+1657644010,S. Qayyum
+48633912,Fahim Ullah
+90426770,S. Sepasgozar
+2717738,Joe Zhu
+2235459675,Karl L€ ofgren
+2296802333,William R Webster
+98495275,Yesheng Cui
+143894735,S. Kara
+115609123,Ka-Ching Chan
+2115552258,Haitao Liu
+144848119,Y. Ong
+2685045,Xiaobo Shen
+1688642,Jianfei Cai
+39496312,A. Sîrbu
+50663909,G. Andrienko
+1780833,N. Andrienko
+144386157,C. Boldrini
+2288804757,M. Conti
+1685102,F. Giannotti
+1704327,Riccardo Guidotti
+30912359,Simone Bertoli
+65925190,Jisu Kim
+144263850,Cristina Ioana Muntean
+3145906,Luca Pappalardo
+1739490,A. Passarella
+1693341,D. Pedreschi
+28956425,Laura Pollacci
+33769943,Francesca Pratesi
+2111337069,Rajesh Sharma
+101768561,A. Poom
+4902441,O. Järv
+32343498,Matthew Zook
+4478199,T. Toivonen
+4488990,M. Mohammadi
+1404786833,Ala I. Al-Fuqaha
+1683936,Sameh Sorour
+145837053,M. Guizani
+144728286,T. Choi
+1694705,S. Wallace
+71219359,Yulan Wang
+2314246,Huchang Liao
+2087083011,Ming Tang
+8043060,L. Luo
+49673304,Chunyang Li
+1682727,F. Chiclana
+145681778,Xiao-Jun Zeng
+51925440,Joffrey L. Leevy
+8566633,Richard A. Bauder
+1792647,Zhihan Lv
+2065509293,Liang Qiao
+107864595,Z. Allam
+121660594,Zaynah A. Dhunny
+7452993,K. Ngiam
+114139456,Ing Wei Khor
+2193799,Tim Hulsen
+34734228,S. Jamuar
+143920977,A. Moody
+5190887,J. Karnes
+143833453,O. Varga
+73773486,Stine Hedensted
+1836456,R. Spreafico
+2044599,D. Hafler
+15210212,E. McKinney

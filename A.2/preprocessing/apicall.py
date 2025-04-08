@@ -5,7 +5,7 @@ from pathlib import Path
 
 API_KEY = "EowDUTmICj4b5QQgxTZgw8eZxoZxZ11Z8XPfBYXd"
 HEADERS = {"x-api-key": API_KEY}
-SEARCH_QUERY = "graph databases"
+SEARCH_QUERY = ["graph databases", "big data"]
 MAX_PAPERS = 100
 FIELDS = "title,year,abstract,venue,authors,externalIds,fieldsOfStudy,citations,references"
 
@@ -17,11 +17,11 @@ def classify_venue(name):
         return name, "Conference"
     return name, "Journal"
 
-def fetch_papers():
+def fetch_papers(query):
     print("🔎 Buscando papers en Semantic Scholar...")
     search_url = "https://api.semanticscholar.org/graph/v1/paper/search"
     params = {
-        "query": SEARCH_QUERY,
+        "query": query,
         "fields": FIELDS,
         "limit": MAX_PAPERS
     }
@@ -125,7 +125,7 @@ def write_csvs(papers, people, keywords, venues, wrote_rels, cites_rels, pubin_r
 
     with open("data/keyword_nodes.csv", "w", newline='', encoding="utf-8") as f:
         writer = csv.writer(f)
-        writer.writerow(["keyword_name"])
+        writer.writerow(["word"])
         for kw in keywords:
             writer.writerow([kw])
 
@@ -144,7 +144,9 @@ def write_csvs(papers, people, keywords, venues, wrote_rels, cites_rels, pubin_r
     print("✅ Archivo person_nodes_raw.csv generado")
 
 def main():
-    results = fetch_papers()
+    results = []
+    for query in SEARCH_QUERY:
+        results.extend(fetch_papers(query))
     data = process_papers(results)
     write_csvs(*data)
 

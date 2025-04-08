@@ -25,7 +25,7 @@ orgs = [
 def write_organization_nodes(output_path, organizations):
     with open(output_path, "w", newline='', encoding="utf-8") as f:
         writer = csv.writer(f)
-        writer.writerow(["organization_id:ID(Organization)", "name", "type"])
+        writer.writerow(["organization_id", "name", "type"])
         writer.writerows(organizations)
 
 def load_person_ids(input_path):
@@ -43,7 +43,7 @@ def assign_affiliations(person_ids, orgs):
 def write_affiliations(output_path, affiliations):
     with open(output_path, "w", newline='', encoding="utf-8") as f:
         writer = csv.writer(f)
-        writer.writerow(["person_id", ":organization_id"])
+        writer.writerow(["person_id", "organization_id"])
         writer.writerows(affiliations)
 
 def main():
