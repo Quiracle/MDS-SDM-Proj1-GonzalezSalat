@@ -30,7 +30,6 @@ def main():
     generatereviews.main()
     generatevolumejournal.main()
 
-    # Ahora el script está en A.2/, así que accede a preprocessing/data/
     script_dir = os.path.dirname(os.path.abspath(__file__))
     source = os.path.join(script_dir, "preprocessing", "data")
     destination = os.path.join(script_dir, "../neo4j_project/import")
