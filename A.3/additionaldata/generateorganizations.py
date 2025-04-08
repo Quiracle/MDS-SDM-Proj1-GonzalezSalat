@@ -8,7 +8,7 @@ INPUT_PERSONS = os.path.join("..", "..", "A.2", "preprocessing", "data", "person
 OUTPUT_ORGS = os.path.join(BASE, "organization_nodes.csv")
 OUTPUT_AFFILIATIONS = os.path.join(BASE, "person_affiliated_with.csv")
 
-# 10 organizaciones reales
+# 10 organizations with 5 universities and 5 companies
 orgs = [
     ("org1", "Stanford University", "University"),
     ("org2", "MIT", "University"),
