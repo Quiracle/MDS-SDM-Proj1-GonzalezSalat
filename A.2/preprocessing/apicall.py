@@ -18,7 +18,7 @@ def classify_venue(name):
     return name, "Journal"
 
 def fetch_papers(query):
-    print("🔎 Buscando papers en Semantic Scholar...")
+    print("Searching papers in Semantic Scholar...")
     search_url = "https://api.semanticscholar.org/graph/v1/paper/search"
     params = {
         "query": query,
@@ -28,7 +28,7 @@ def fetch_papers(query):
     response = requests.get(search_url, headers=HEADERS, params=params)
 
     if response.status_code != 200:
-        raise Exception(f"❌ Error en la llamada a la API: {response.status_code} - {response.text}")
+        raise Exception(f"API call failed: {response.status_code} - {response.text}")
     
     return response.json().get("data", [])
 
