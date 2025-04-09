@@ -1,0 +1,2 @@
+﻿nodeProjection,relationshipProjection,graphName,nodeCount,relationshipCount,projectMillis
+"{Paper: {label: ""Paper"", properties: {}}}","{CITES: {aggregation: ""DEFAULT"", orientation: ""NATURAL"", indexInverse: false, properties: {}, type: ""CITES""}}","""paperGraph""",200,261,798
