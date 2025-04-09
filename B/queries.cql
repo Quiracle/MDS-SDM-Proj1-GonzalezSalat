@@ -1,5 +1,5 @@
 // Top 3 most cited papers per Conference/Workshop
-MATCH (p:Paper)-[:PUBLISHED_IN]->(c:ConferenceWorkshop)
+MATCH (p:Paper)-[:PUBLISHED_IN]->(:Edition)-[:PERTAINS]->(c:ConferenceWorkshop)
 OPTIONAL MATCH (:Paper)-[:CITES]->(p)
 WITH c.name AS conference, p.title AS title, p.paper_id AS id, count(*) AS citation_count
 ORDER BY conference, citation_count DESC
@@ -17,12 +17,16 @@ ORDER BY conference, editions DESC;
 //Problems: There are no Conferences with more than 2 editions. If the editions are set to >= 2 there is a result.
 
 //Get journal impact factor
+// Step 1: Get all papers and their journals
 MATCH (j:Journal)<-[:PERTAINS]-(v:Volume)<-[:PUBLISHED_IN]-(p:Paper)
-OPTIONAL MATCH (:Paper)-[:CITES]->(p)
-WITH j.name AS journal, count(DISTINCT p) AS total_papers, count(DISTINCT CASE WHEN EXISTS((:Paper)-[:CITES]->(p)) THEN p END) AS total_cited
+WITH j, p
+// Step 2: Count how many times each paper is cited
+OPTIONAL MATCH (p)<-[:CITES]-(:Paper)
+WITH j.journal_id AS journal, count(*) AS citation_count, count(DISTINCT p) AS paper_count
 RETURN journal,
-       total_cited * 1.0 / total_papers AS impact_factor,
-       total_cited, total_papers
+       sum(citation_count) * 1.0 / paper_count AS impact_factor,    //Use 1.0 to get decimal result
+       sum(citation_count) AS total_citations,
+       paper_count AS total_papers
 ORDER BY impact_factor DESC;
 
 
@@ -46,5 +50,5 @@ UNWIND range(0, size(sorted_citations)-1) AS i
 WITH author, i + 1 AS rank, sorted_citations[i] AS citation
 WHERE citation >= rank
 WITH author, max(rank) AS h_index
-RETURN author, h_index
+RETURN author, h_index, sorted_citations
 ORDER BY h_index DESC;
