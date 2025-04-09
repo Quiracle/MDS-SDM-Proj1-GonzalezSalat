@@ -1,0 +1,51 @@
+﻿paper_title,communityId
+"""Graph Databases""",2
+"""Inference of Shape Graphs for Graph Databases""",5
+"""A model and query language for temporal graph databases""",11
+"""Controlling Diversity in Benchmarking Graph Databases""",11
+"""Foundations of Modern Query Languages for Graph Databases""",11
+"""Mapping RDF Databases to Property Graph Databases""",11
+"""Modelling and Querying Star and Snowflake Warehouses Using Graph Databases""",11
+"""Multilayer graphs: a unified data model for graph databases""",11
+"""Query Languages for Graph Databases""",11
+"""Querying Wikidata: Comparing SPARQL, Relational and Graph Databases""",11
+"""Querying in the Age of Graph Databases and Knowledge Graphs""",11
+"""Regular Queries on Graph Databases""",11
+"""Schema Validation and Evolution for Graph Databases""",11
+"""Singleton Property Graph: Adding A Semantic Web Abstraction Layer to Graph Databases""",11
+"""Smart RDF Data Storage in Graph Databases""",11
+"""The World of Graph Databases from An Industry Perspective""",11
+"""Towards Temporal Graph Databases""",11
+"""Two for one: querying property graph databases using SPARQL via gremlinator""",11
+"""GAWD: graph anomaly detection in weighted directed graph databases""",13
+"""Using Graph Databases""",20
+"""A Schema-First Formalism for Labeled Property Graph Databases: Enabling Structured Data Loading and Analytics""",22
+"""Analytical queries on semantic trajectories using graph databases""",22
+"""Designing Graph Databases With GRAPHED""",22
+"""Detecting Evidence of Fraud in the Brazilian Government Using Graph Databases""",22
+"""Generating Flexible Workloads for Graph Databases""",22
+"""Graph Databases""",22
+"""Model driven reverse engineering of NoSQL property graph databases: The case of Neo4j""",22
+"""Multi-Dimensional Event Data in Graph Databases""",22
+"""Querying Encrypted Graph Databases""",22
+"""UMLtoGraphDB: Mapping Conceptual Schemas to Graph Databases""",22
+"""Updating Graph Databases with Cypher""",22
+"""GHashing: Semantic Graph Hashing for Approximate Similarity Search in Graph Databases""",23
+"""Similarity Search in Graph Databases: A Multi-Layered Indexing Approach""",23
+"""Efficient and Scalable Integrity Verification of Data and Query Results for Graph Databases""",29
+"""Investigative Graph Search using Graph Databases""",36
+"""When Subgraph Isomorphism is Really Hard, and Why This Matters for Graph Databases""",38
+"""Semiring Provenance over Graph Databases""",39
+"""A Bottom-Up Algorithm for Answering Context-Free Path Queries in Graph Databases""",41
+"""Fireplug: Flexible and robust N-version geo-replication of graph databases""",44
+"""Using Functional Dependencies in Conversion of Relational Databases to Graph Databases""",47
+"""Application of graph databases and graph theory concepts for advanced analysing of BIM models based on IFC standard""",48
+"""Building Knowledge Extraction from BIM/IFC Data for Analysis in Graph Databases""",51
+"""IOGP: An Incremental Online Graph Partitioning Algorithm for Distributed Graph Databases""",54
+"""An overview of graph databases and their applications in the biomedical domain""",57
+"""Comparative Analysis of Relational and Graph Databases for Social Networks""",57
+"""Comparative study of relational and graph databases""",57
+"""EVALUATION OF GRAPH DATABASES PERFORMANCE THROUGH INDEXING TECHNIQUES""",57
+"""Experimental Evaluation of Graph Databases: JanusGraph, Nebula Graph, Neo4j, and TigerGraph""",57
+"""GRAPHED: A Graph Description Diagram for Graph Databases""",57
+"""Graph Databases Comparison: AllegroGraph, ArangoDB, InfiniteGraph, Neo4J, and OrientDB""",57
