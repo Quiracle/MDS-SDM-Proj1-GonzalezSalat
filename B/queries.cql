@@ -5,7 +5,6 @@ WITH c.name AS conference, p.title AS title, p.paper_id AS id, count(*) AS citat
 ORDER BY conference, citation_count DESC
 WITH conference, collect({title: title, id: id, citations: citation_count}) AS papers
 RETURN conference, papers[0..3] AS top_3_papers;
-//Problems: There are less than 3 Conferences with more than 1 paper, so most results is just a paper with low citations since it's the only one.
 
 
 //Community
@@ -14,7 +13,6 @@ WITH c.name AS conference, a.name AS author, count(DISTINCT e.edition_id) AS edi
 WHERE editions >= 4
 RETURN conference, author, editions
 ORDER BY conference, editions DESC;
-//Problems: There are no Conferences with more than 2 editions. If the editions are set to >= 2 there is a result.
 
 //Get journal impact factor
 // Step 1: Get all papers and their journals
