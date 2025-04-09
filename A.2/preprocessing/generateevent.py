@@ -58,7 +58,7 @@ def main():
     INPUT_PUBLISHED_IN = "data/paper_published_in.csv"
     OUTPUT_EDITION = "data/edition_nodes.csv"
     OUTPUT_PUBLISHED_IN_ED = "data/paper_published_in_edition.csv"
-    OUTPUT_PERTAINS = "data/edition_pertains_event.csv"
+    OUTPUT_PERTAINS = "data/edition_pertains_conferenceworkshop.csv"
 
     paper_year = load_paper_years(INPUT_PAPERS)
     paper_venue = load_paper_venues(INPUT_PUBLISHED_IN)

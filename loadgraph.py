@@ -77,12 +77,6 @@ cypher_statements = [
     """,
 
     """
-    LOAD CSV WITH HEADERS FROM 'file:///paper_published_in.csv' AS row
-    MATCH (p:Paper {paper_id: row.paper_id}), (v:ConferenceWorkshop {name: row.name})
-    CREATE (p)-[:PUBLISHED_IN]->(v);
-    """,
-
-    """
     LOAD CSV WITH HEADERS FROM 'file:///paper_published_in_edition.csv' AS row
     MATCH (p:Paper {paper_id: row.paper_id}), (e:Edition {edition_id: row.edition_id})
     CREATE (p)-[:PUBLISHED_IN]->(e);

@@ -25,7 +25,7 @@ def main():
     apicall.main()
     generateconference.main()
     generateevent.main()
-    generateeditionpertains.main()
+    # generateeditionpertains.main()
     generateperson.main()
     generatereviews.main()
     generatevolumejournal.main()
