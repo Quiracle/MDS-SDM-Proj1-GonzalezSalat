@@ -5,6 +5,11 @@ WHERE any(word IN ["data management", "indexing", "data modeling", "big data", "
            WHERE toLower(p.title) CONTAINS word)
 SET p:DatabaseCommunityPaper;
 
+// Reset step
+MATCH (p:DatabaseCommunityPaper)
+REMOVE p:DatabaseCommunityPaper;
+
+
 
 // STEP 2
 
@@ -26,6 +31,10 @@ WITH j, count(DISTINCT p) AS total,
 WHERE total > 0 AND db_related * 1.0 / total >= 0.9
 SET j:DatabaseVenue;
 
+// Reset step
+MATCH (p:DatabaseVenue)
+REMOVE p:DatabaseVenue;
+
 // STEP 3
 
 // Get DB-related papers
@@ -42,6 +51,9 @@ ORDER BY citations DESC
 LIMIT 100
 SET p:TopDBPaper;
 
+MATCH (p:TopDBPaper)
+REMOVE p:TopDBPaper;
+
 //STEP 4
 
 // Find authors of TopDBPaper
@@ -51,3 +63,8 @@ SET a:PotentialReviewer
 WITH a, top_paper_count
 WHERE top_paper_count >= 2
 SET a:Guru;
+
+MATCH (p:PotentialReviewer)
+REMOVE p:PotentialReviewer;
+MATCH (p:Guru)
+REMOVE p:Guru;
